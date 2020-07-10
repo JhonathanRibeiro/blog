@@ -1,0 +1,56 @@
+---
+layout: contact
+permalink: "/contact.html"
+title: "Contato"
+image: "/assets/img/bg-01.jpg"
+---
+<section class="contact-section">
+    <div class="jumbotron" id="contact-header">
+        <h4 class="text-white text-center">
+            <div class="text-center content-h4">
+                <div class="h1">Contato</div><br>
+                <small>Envie-me uma mensagem, respondo em até 24hrs ;)</small>
+            </div>
+        </h4>
+    </div>
+    <div class="container">
+        <form id="contact-form" name="contact" class="contact-form col-lg-8 mx-lg-auto" method="POST"
+            data-netlify="true">
+            <h3 class="text-center mb-3">Get In Touch</h3>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label class="sr-only" for="cname">Seu nome</label>
+                    <input type="text" class="form-control" id="cname" name="name" placeholder="Seu nome" minlength="2"
+                        required="" aria-required="true">
+                </div>
+                <div class="form-group col-md-6">
+                    <label class="sr-only" for="cemail">E-mail</label>
+                    <input type="email" class="form-control" id="cemail" name="email" placeholder="E-mail" required=""
+                        aria-required="true">
+                </div>
+                <div class="form-group col-12">
+                    <select id="assunto" class="custom-select" name="assunto[]">
+                        <option selected="">Selecione um assunto</option>
+                        <option value="info">Informações</option>
+                        <option value="duvidas">Dúvidas</option>
+                        <option value="orcamentos">Orçamentos</option>
+                        <option value="sugestoes">Sugestões</option>
+                        <option value="reclamacoes">Reclamações</option>
+                    </select>
+                    <small class="form-text text-muted pt-1"><i class="fas fa-info-circle mr-2 text-primary"></i>
+                        Não se preocupe, seu e-mail está seguro. Eu também odeio Spam. ;)</small>
+                </div>
+                <div class="form-group col-12">
+                    <label class="sr-only" for="cmessage">Sua mensagem</label>
+                    <textarea class="form-control" id="cmessage" name="message"
+                        placeholder="Digite sua mensagem aqui..." rows="10" required="" aria-required="true"></textarea>
+                </div>
+                <div data-netlify-recaptcha="true"></div>
+                <br><br>
+                <div class="form-group col-12">
+                    <button type="submit" class="btn btn-block btn-primary py-2">Enviar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>

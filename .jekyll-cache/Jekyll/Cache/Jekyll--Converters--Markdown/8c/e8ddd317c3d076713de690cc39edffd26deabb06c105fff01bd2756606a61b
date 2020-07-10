@@ -1,0 +1,53 @@
+I"y<p>Extensão GoodTwitter força Chrome e Firefox a retornarem ao antigo layout da rede social
+Usuários que não se adaptaram ao novo layout do Twitter para a versão web podem retornar ao visual antigo com soluções simples e grátis. A extensão GoodTwitter, disponível para Google Chrome e Mozilla Firefox, recupera todas as características da outra interface, como o menu de comando na barra superior, a coluna de Trending Topics à direita e o contador de tweets e seguidores logo na página inicial. Quem usa Firefox conta, ainda, com um método adicional para ter a versão anterior de volta. Confira, no tutorial a seguir, opções para voltar ao Twitter antigo.</p>
+
+<p>Quer comprar celular, TV e outros produtos com desconto? Conheça a John The Everything Store</p>
+
+<p>Google Chrome
+Passo 1. Acesse a página da extensão GoodTwitter na Chrome Web Store e clique em “Usar no Chrome”;
+Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto
+Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto</p>
+
+<p>Passo 2. Autorize a instalação da extensão;</p>
+
+<p>Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto
+Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto
+Passo 3. Abra o Twitter para conferir a mudança da interface.
+Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto
+Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto
+Mozilla Firefox
+Passo 1. Acesse a página da extensão GoodTwitter no Firefox Add-On Manager e clique em “Add to Firefox”;</p>
+
+<p>Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto
+Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto
+Passo 2. Autorize a instalação do GoodTwitter;</p>
+
+<p>Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto
+Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto
+Passo 3. Abra o Twitter para conferir a mudança da interface.</p>
+
+<p>Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto
+Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto
+Caso você seja um usuário do Firefox que prefere um método “faça você mesmo”, pode também usar o comando “about:config” para fazer ajustes e retornar à velha interface da rede social.</p>
+
+<p>Passo 1. Digite “about:config” (sem aspas) na barra de endereços e tecle “Enter”. Pressione o botão “Eu aceito o risco!” para prosseguir;</p>
+
+<p>Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto
+Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto
+Passo 2. Clique com o botão direito do mouse em qualquer lugar da página e selecione “Nova preferência &gt; String”;</p>
+
+<p>Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto
+Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto
+Passo 3. Uma janela pop-up pedirá o nome da preferência. Digite “general.useragent.override.twitter.com” (sem aspas) e clique em OK;</p>
+
+<p>Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto
+Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto
+Passo 4. Será pedido o valor de string. Digite “Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko” (sem aspas);</p>
+
+<p>Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto
+Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto
+Passo 5. A linha será adicionada aos outros comandos listados na página. Assim que você carregar o Twitter, verá o layout antigo. Pode ser que seja necessário reiniciar o navegador ou limpar o cache. Caso deseje reverter a mudança, basta digitar “about:config” novamente, clicar com o botão direito do mouse na linha de configuração adicionada e apertar “Redefinir”.</p>
+
+<p>Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto
+Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto</p>
+:ET

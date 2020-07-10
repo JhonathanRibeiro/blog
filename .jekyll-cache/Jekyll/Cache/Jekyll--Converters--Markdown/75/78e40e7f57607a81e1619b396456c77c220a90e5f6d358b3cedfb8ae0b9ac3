@@ -1,0 +1,271 @@
+I"�G<p>Você já encontrou um momento em que viu seu colega usando alguns comandos simples do Linux para tarefas que exigiram várias teclas? E quando você viu que estava tipo, “Uau! Não sabia que poderia ter sido feito tão facilmente ”.</p>
+
+<p>Neste artigo, mostrarei alguns truques profissionais de comando do Linux que economizarão muito tempo e, em alguns casos, muita frustração. Não apenas seus amigos ou colegas vão se impressionar com você, mas também o ajudarão a aumentar sua produtividade, pois você precisará de menos pressionamentos de tecla e menos cliques no mouse.</p>
+
+<p>Não é que estas sejam dicas do Linux apenas para iniciantes. As chances são de que mesmo usuários experientes do Linux encontrarão algumas jóias escondidas que eles não estavam cientes, apesar de usar o Linux por todos esses anos.</p>
+
+<p>De qualquer forma, você aprende Linux por experiência, seja sua ou de outra pessoa :)</p>
+
+<h3 id="truques-de-terminal-linux-legal-para-economizar-tempo-e-aumentar-a-produtividade">Truques de terminal Linux legal para economizar tempo e aumentar a produtividade</h3>
+
+<p><a href="https://jhonathanribeiro.netlify.app/dicas-e-truques-de-comando-do-Linux-que-economizarao-muito-tempo/"><img src="https://d33wubrfki0l68.cloudfront.net/be46d358565f0c141b5a311085d1392750e75705/b696b/assets/images/posts/linuxb.jpg" alt="image" /></a></p>
+
+<p>Credit image: Jhonathan Ribeiro<a href="https://jhonathanribeiro.netlify.app/dicas-e-truques-de-comando-do-Linux-que-economizarao-muito-tempo/"></a></p>
+
+<p>Você já deve conhecer algumas dessas dicas de comando do Linux ou talvez todas. Em ambos os casos, você pode compartilhar seus truques favoritos na seção de comentários.</p>
+
+<p>Algumas dessas dicas também dependem de como o shell está configurado. Vamos começar!</p>
+
+<h3 id="0-usando-a-guia-para-preenchimento-automático">0. Usando a guia para preenchimento automático</h3>
+
+<p>Vou começar com algo realmente óbvio e ainda muito importante:</p>
+
+<p>Quando você está começando a digitar algo no terminal Linux, pode pressionar a tecla tab e ela sugere todas as opções possíveis que começam com a string digitada até o momento.</p>
+
+<p>Por exemplo, se você estiver tentando copiar um arquivo chamado my_best_file_1.txt, basta digitar ‘cp m’ e clicar em tab para ver as opções possíveis.</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/loja"><img src="https://d33wubrfki0l68.cloudfront.net/2e1015d82873d3beca1191756d5ee1752a3d0bfe/736e7/assets/images/blog/linux-command.png" alt="Linux terminal comands image" /></a></p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/dicas-e-truques-de-comando-do-Linux-que-economizarao-muito-tempo/">Credit Image: Jhonathan Ribeiro</a></p>
+
+<h3 id="1-volte-para-o-último-diretório-de-trabalho">1. Volte para o último diretório de trabalho</h3>
+
+<p>Suponha que você termine em um caminho de diretório longo e depois mude para outro diretório em um caminho totalmente diferente. E então você percebe que precisa voltar ao diretório anterior em que estava. Nesse caso, tudo o que você precisa fazer é digitar este comando:</p>
+
+<p>cd</p>
+
+<p>Isso o colocará de volta no último diretório de trabalho. Você não precisa digitar o caminho longo do diretório ou copiar e colar mais.</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/loja"><img src="https://d33wubrfki0l68.cloudfront.net/b1443575c5d70756d63ac468c8899fdcb5f08115/6d638/assets/images/posts/linux-command-tricks.png" alt="Linux terminal comands image" /></a></p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/dicas-e-truques-de-comando-do-Linux-que-economizarao-muito-tempo/">Credit Image: Jhonathan Ribeiro</a></p>
+
+<h3 id="2-volte-ao-diretório-inicial">2. Volte ao diretório inicial</h3>
+
+<p>Isso é óbvio demais. Você pode usar o comando abaixo para ir para o diretório inicial de qualquer lugar da linha de comando do Linux:</p>
+
+<p>cd ~</p>
+
+<p>No entanto, você também pode usar apenas cd para voltar ao diretório inicial:</p>
+
+<p>cd</p>
+
+<p>A maioria das distribuições modernas de Linux tem o shell pré-configurado para este comando. Economiza pelo menos duas teclas aqui.</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/loja"><img src="https://d33wubrfki0l68.cloudfront.net/359b45ba856f14ff3cf6567becafb65e2df2410f/9e9c0/assets/images/posts/linux-terminal-pwd-wallpapers.png" alt="Linux terminal comands image" /></a></p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/dicas-e-truques-de-comando-do-Linux-que-economizarao-muito-tempo/">Credit Image: Jhonathan Ribeiro</a></p>
+
+<h3 id="3-liste-o-conteúdo-de-um-diretório">3. Liste o conteúdo de um diretório</h3>
+
+<p>Você deve estar adivinhando qual é o truque no comando para listar o conteúdo de um diretório. Todo mundo sabe usar o ls -l para esse fim.</p>
+
+<p>E é isso mesmo. A maioria das pessoas usa ls -l para listar o conteúdo do diretório, enquanto o mesmo pode ser feito com o seguinte comando:</p>
+
+<p>ll</p>
+
+<p>Novamente, isso depende das distribuições Linux e da configuração do shell, mas é provável que você possa usá-lo na maioria das distribuições Linux.</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/loja"><img src="https://d33wubrfki0l68.cloudfront.net/a76e2629db7b9d9c42ff0494a524037d95a7efc8/3a9f7/assets/images/posts/linux-terminal-ll.png" alt="Linux terminal comands image" /></a></p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/dicas-e-truques-de-comando-do-Linux-que-economizarao-muito-tempo/">Credit Image: Jhonathan Ribeiro</a></p>
+
+<h3 id="4-executando-vários-comandos-em-um-único-comando">4. Executando vários comandos em um único comando</h3>
+
+<p>Suponha que você precise executar vários comandos, um após o outro. Você espera o primeiro comando concluir a execução e depois executa o próximo?</p>
+
+<p>Você pode usar o ‘;’ separador para esse fim. Dessa forma, você pode executar vários comandos em uma linha. Não há necessidade de esperar pelos comandos anteriores para concluir seus negócios.</p>
+
+<p>command_1; command_2; command_3</p>
+
+<h3 id="5-executando-vários-comandos-em-um-único-comando-apenas-se-o-comando-anterior-tiver-sido-bem-sucedido">5. Executando vários comandos em um único comando apenas se o comando anterior tiver sido bem-sucedido</h3>
+
+<p>No comando anterior, você viu como executar vários comandos em um único comando para economizar tempo. Mas e se você tiver que garantir que os comandos não falhem?</p>
+
+<p>Imagine uma situação em que você deseja criar um código e, se a compilação foi bem-sucedida, execute o make?</p>
+
+<p>Você pode usar o separador &amp;&amp; para este caso. &amp;&amp; garante que o próximo comando seja executado apenas quando o comando anterior for bem-sucedido.</p>
+
+<p>command_1 &amp;&amp; command_2</p>
+
+<p>Um bom exemplo deste comando é quando você usa o sudo apt update &amp;&amp; sudo apt upgrade para atualizar seu sistema.</p>
+
+<h3 id="6-pesquise-e-use-facilmente-os-comandos-que-você-usou-no-passado">6. Pesquise e use facilmente os comandos que você usou no passado</h3>
+
+<p>Imagine uma situação em que você usou um longo comando alguns minutos / horas atrás e precise usá-lo novamente. O problema é que você não consegue mais se lembrar do comando exato.</p>
+
+<p>A pesquisa reversa é o seu salvador aqui. Você pode procurar o comando no histórico usando um termo de pesquisa.</p>
+
+<p>Basta usar as teclas ctrl + r para iniciar a pesquisa reversa e digite alguma parte do comando. Ele pesquisará o histórico e mostrará os comandos que correspondem ao termo de pesquisa.</p>
+
+<p>ctrl+r search_term</p>
+
+<p>Por padrão, ele mostrará apenas um resultado. Para ver mais resultados correspondentes ao seu termo de pesquisa, você precisará usar ctrl + r novamente. Para sair da pesquisa reversa, basta usar Ctrl + C.</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/loja"><img src="https://d33wubrfki0l68.cloudfront.net/b91a8eb9e9d073b3a2a3c16c4e413ccc583f2455/a8fcc/assets/images/posts/linux-terminal-clear.png" alt="Linux terminal comands image" /></a></p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/dicas-e-truques-de-comando-do-Linux-que-economizarao-muito-tempo/">Credit Image: Jhonathan Ribeiro</a></p>
+
+<p>Observe que em alguns shells do Bash, você também pode usar as teclas Page Up e Down com seu termo de pesquisa e ele completará automaticamente o comando.</p>
+
+<h3 id="7-descongele-seu-terminal-linux-do-ctrl--s-acidental">7. Descongele seu terminal Linux do Ctrl + S acidental</h3>
+
+<p>Você provavelmente costuma usar Ctrl + S para salvar. Mas se você usar isso no terminal Linux, terá um terminal congelado.</p>
+
+<p>Não se preocupe, você não precisa fechar o terminal, não mais. Basta usar Ctrl + Q e você pode usar o terminal novamente.</p>
+
+<p>ctrl+Q</p>
+
+<h3 id="8-mover-para-o-início-ou-o-fim-da-linha">8. Mover para o início ou o fim da linha</h3>
+
+<p>Suponha que você esteja digitando um comando longo e, no meio do caminho, perceba que tinha que mudar alguma coisa no início. Você usaria várias teclas de seta para a esquerda para ir para o início da linha. E da mesma forma por ir até o fim da linha.</p>
+
+<p>Você pode usar as teclas Início e Fim aqui, é claro, mas, alternativamente, pode usar Ctrl + A para ir para o início da linha e Ctrl + E para ir para o final.</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/loja"><img src="https://d33wubrfki0l68.cloudfront.net/910503833091932a281b48a185d27778245059c0/12e11/assets/images/posts/linux-terminal-find.png" alt="Linux terminal comands image" /></a></p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/dicas-e-truques-de-comando-do-Linux-que-economizarao-muito-tempo/">Credit Image: Jhonathan Ribeiro</a></p>
+
+<p>Acho mais conveniente do que usar as teclas inicial e final, especialmente no meu laptop.</p>
+
+<h3 id="9-lendo-um-arquivo-de-log-em-tempo-real">9. Lendo um arquivo de log em tempo real</h3>
+
+<p>Nas situações em que você precisa analisar os logs enquanto o aplicativo está em execução, é possível usar o comando tail com a opção -f.</p>
+
+<p>tail -f path_to_Log</p>
+
+<p>Você também pode usar as opções regulares de grep para exibir apenas as linhas que são significativas para você:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>tail -f path_to_log</td>
+      <td>grep search_term</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Você também pode usar a opção F aqui. Isso manterá a cauda em execução, mesmo que o arquivo de log seja excluído. Portanto, se o arquivo de log for criado novamente, a cauda continuará registrando.</p>
+
+<h3 id="10-lendo-logs-compactados-sem-extrair">10. Lendo logs compactados sem extrair</h3>
+
+<p>Os logs do servidor geralmente são compactados com gzip para economizar espaço em disco. Isso cria um problema para o desenvolvedor ou administrador de sistemas que analisa os logs. Pode ser necessário scp- lo para o seu local e depois extraí-lo para acessar os arquivos porque, às vezes, você não tem permissão de gravação para extrair os logs.</p>
+
+<p>Felizmente, os comandos z salvam você em tais situações. Os comandos z fornecem alternativas aos comandos regulares que você usa para lidar com arquivos de log como less, cat, grep etc.</p>
+
+<p>Então você obtém o zless, o zcat, o zgrep etc e nem precisa extrair explicitamente os arquivos compactados. Consulte o meu artigo anterior sobre o uso de comandos z em logs compactados reais em detalhes.</p>
+
+<p>Essa foi uma das descobertas secretas que me renderam um café do meu colega.</p>
+
+<h3 id="11-use-menos-para-ler-arquivos">11. Use menos para ler arquivos</h3>
+
+<p>Para ver o conteúdo de um arquivo, cat não é a melhor opção, especialmente se for um arquivo grande. O comando cat exibirá o arquivo inteiro na sua tela.</p>
+
+<p>Você pode usar o Vi, Vim ou outros editores de texto baseados em terminal, mas se você quiser apenas ler um arquivo, menos comando é uma escolha muito melhor.</p>
+
+<p>less path_to_file</p>
+
+<p>Você pode procurar termos dentro de menos, mover por página, exibir com números de linha etc.</p>
+
+<h3 id="12-reutilize-o-último-item-do-comando-anterior-com-">12. Reutilize o último item do comando anterior com! $</h3>
+
+<p>O uso do argumento do comando anterior é útil em muitas situações.</p>
+
+<p>Digamos que você tenha que criar um diretório e depois entrar no diretório recém-criado. Lá você pode usar as opções! $.</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/loja"><img src="https://d33wubrfki0l68.cloudfront.net/1c76801c9f83c71465f417b35538e942adcca732/e7b1e/assets/images/posts/linux-terminal-ls-toos-ls.png" alt="Linux terminal comands image" /></a></p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/dicas-e-truques-de-comando-do-Linux-que-economizarao-muito-tempo/">Credit Image: Jhonathan Ribeiro</a></p>
+
+<p>Uma maneira melhor de fazer o mesmo é usar alt +. . Você pode usar . várias vezes para alternar entre as opções dos últimos comandos.</p>
+
+<h3 id="13-reutilize-o-comando-anterior-no-comando-atual-com-">13. Reutilize o comando anterior no comando atual com !!</h3>
+
+<p>Você pode chamar o comando anterior inteiro com !!. Isso é particularmente útil quando você precisa executar um comando e perceber que ele precisa de privilégios de root.</p>
+
+<p>Um sudo rápido !! economiza muitas teclas aqui.</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/loja"><img src="https://d33wubrfki0l68.cloudfront.net/d883a24127be28c6156384d592eba02dc44424e1/fff0f/assets/images/posts/linux-terminal-apt-install.png" alt="Linux terminal comands image" /></a></p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/dicas-e-truques-de-comando-do-Linux-que-economizarao-muito-tempo/">Credit Image: Jhonathan Ribeiro</a></p>
+
+<h3 id="14-usando-alias-para-corrigir-erros-de-digitação">14. Usando alias para corrigir erros de digitação</h3>
+
+<p>Você provavelmente já sabe o que é um comando de alias no Linux. O que você pode fazer é usá-los para corrigir erros de digitação.</p>
+
+<p>Por exemplo, você pode digitar errado grep como gerp. Se você colocar um alias no seu bashrc desta maneira:</p>
+
+<p>alias gerp=grep</p>
+
+<p>Dessa forma, você não precisará digitar novamente o comando novamente.</p>
+
+<h3 id="15-copie-e-cole-no-terminal-linux">15. Copie e cole no terminal Linux</h3>
+
+<p>Este é um pouco ambíguo porque depende das distribuições Linux e aplicativos de terminal. Mas, em geral, você deve poder copiar comandos de colar com estes atalhos:</p>
+
+<ul>
+  <li>Selecione o texto para copiar e clique com o botão direito do mouse para colar (funciona em Putty e outros clientes SSH do Windows)</li>
+  <li>Selecione o texto para copiar e clique no meio (botão de rolagem do mouse) para colar Ctrl + Shift + C para copiar e Ctrl + Shift + V para colar</li>
+</ul>
+
+<h3 id="16-mate-um-comando--processo-em-execução">16. Mate um comando / processo em execução</h3>
+
+<p>Este talvez seja muito óbvio. Se houver um comando em execução em primeiro plano e você quiser sair dele, pressione Ctrl + C para interromper o comando em execução.</p>
+
+<h3 id="17-usando-o-comando-yes-para-comandos-ou-scripts-que-precisam-de-resposta-interativa">17. Usando o comando yes para comandos ou scripts que precisam de resposta interativa</h3>
+
+<p>Se houver alguns comandos ou scripts que precisem de interação do usuário e você souber que precisa digitar Y cada vez que isso exigir uma entrada, você poderá usar o comando Sim.</p>
+
+<p>Basta usá-lo da maneira abaixo:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>yes</td>
+      <td>command_or_script</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="18-esvazie-um-arquivo-sem-excluí-lo">18. Esvazie um arquivo sem excluí-lo</h3>
+
+<p>Se você quiser apenas esvaziar o conteúdo de um arquivo de texto sem excluir o próprio arquivo, poderá usar um comando semelhante a este:</p>
+
+<p>&gt; filename</p>
+
+<h3 id="19-descubra-se-existem-arquivos-que-contêm-um-texto-específico">19. Descubra se existem arquivos que contêm um texto específico</h3>
+
+<p>Existem várias maneiras de pesquisar e encontrar na linha de comando do Linux. Mas no caso em que você deseja apenas ver se há arquivos que contêm um texto específico, você pode usar este comando:</p>
+
+<p>grep -Pri Search_Term path_to_directory</p>
+
+<p>Eu recomendo muito o domínio do comando find.</p>
+
+<h3 id="20-usando-ajuda-com-qualquer-comando">20. Usando ajuda com qualquer comando</h3>
+
+<p>Concluirei este artigo com mais um ‘truque’ óbvio e ainda muito importante, usando a ajuda de um comando ou uma ferramenta de linha de comando.</p>
+
+<p>Quase todas as ferramentas de linha de comando e comando vêm com uma página de ajuda que mostra como usar o comando. Geralmente, o uso da ajuda informa o uso básico da ferramenta / comando.</p>
+
+<p>Basta usá-lo desta maneira:</p>
+
+<p>command_tool –help</p>
+
+<h3 id="seus-truques-de-linha-de-comando-favoritos-do-linux">Seus truques de linha de comando favoritos do Linux?</h3>
+
+<p>Eu deliberadamente não incluí comandos como <a href="https://github.com/nvbn/thefuck">fuck</a>, porque esses não são comandos padrão que você encontrará em todos os lugares. Os truques discutidos aqui devem ser utilizáveis ​​quase em todas as distribuições e shell do Linux, sem a necessidade de instalar uma nova ferramenta.</p>
+
+<p>Eu também sugeriria usar o comando alias no Linux para substituir comandos complicados por um simples. Economiza muito tempo.</p>
+
+<p>Eu sei que existem mais truques de comando do Linux para economizar tempo no terminal. Por que não compartilhar algumas de suas experiências com o Linux e compartilhar seu melhor truque com o resto da comunidade aqui? A seção de comentários abaixo está à sua disposição.</p>
+
+<h3 id="precisando-de-um-site">Precisando de um site?</h3>
+
+<p><a href="https://cleandesign.netlify.app/">Clique aqui e conheça nossos pacotes de webdesign</a></p>
+
+<h2 id="ganhe-dinheiro-encurtando-links">Ganhe dinheiro encurtando links!</h2>
+
+<p>E se você pudesse receber dinheiro pelos links que você compartilha nas redes sociais? Isso é possível graças a essas gigantes abaixo, para saber mais, clica no banner abaixo, cadastre-se agora mesmo e comece a faturar encurtando os seus links. ;)</p>
+
+<p><a href="https://exe.io/ref/JhonathanRb"><img src="https://img.cut-urls.com/r2.gif" alt="" /></a></p>
+:ET

@@ -1,0 +1,146 @@
+I"�A<h2 id="como-criar-um-email-com-apenas-html">Como criar um email com apenas HTML</h2>
+
+<p>A melhor forma de entender qualquer processo é realizá-lo desde o começo,hoje faremos isso com o design de e-mails,construindo um modelo de e-mail em HTML, do zero.</p>
+
+<h2 id="o-pontapé-inicial">O Pontapé Inicial</h2>
+
+<p>Para começar, gostaria de mencionar de onde eu consegui meus recursos.</p>
+
+<ul>
+  <li>Os belos ícones 2D são do <a href="https://dribbble.com/pierreborodin">Pierre Borodin</a> lá no Dribbble</li>
+  <li>As fontes usadas foram a <a href="https://losttype.com/">Oil Can</a>, <a href="https://fonts.google.com/specimen/Source+Sans+Pro">Source Sans Pro</a> e <a href="http://www.losttype.com/font/?name=mission_script">Mission Script</a></li>
+  <li>Os ícones de mídia social são da <a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/alessioatzeni.com/metrize-icons/">Metrize Icons</a></li>
+</ul>
+
+<h2 id="mão-na-massa">Mão na massa</h2>
+
+<p>Para começar, você precisará iniciar o documento HTML do seu e-mail com a estrutura padrão do HTML:</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://d33wubrfki0l68.cloudfront.net/1b5c3586b350f91e7bd9fbb529b0cc7d0572fbf9/a483a/assets/images/posts/emailhtml/estruturahtml.png" alt="image" /></a></p>
+
+<p>Com isso, podemos começar a construir o resto da nossa estrutura.</p>
+
+<h2 id="criando-o-corpo-e-a-tabela-principal">Criando o Corpo e a Tabela Principal</h2>
+
+<p>Primeiro, adicionaremos a estrutura básica do nosso e-mail, começando pela tag <code class="language-plaintext highlighter-rouge">&lt;body&gt;</code> Atribuiremos o valor zero (0) para as margens e espaçamentos internos (padding), para evitar qualquer espaço inesperado.</p>
+
+<p>Também adicionaremos uma tabela de largura 100%. Ela se comportará como a verdadeira tag <code class="language-plaintext highlighter-rouge">&lt;body&gt;</code> do nosso e-mail,porque a estilização dela (tag <code class="language-plaintext highlighter-rouge">&lt;body&gt;</code> ) não é totalmente suportada. Se você quiser adicionar alguma cor de fundo ao “corpo” do seu e-mail, você terá de aplicar a essa tabela.</p>
+
+<p>Configure os atributos <code class="language-plaintext highlighter-rouge">cellpadding</code> e <code class="language-plaintext highlighter-rouge">cellspacing</code> para zero, de modo que, mais uma vez, não obtenha qualquer espaço inesperado.</p>
+
+<p><strong>Nota:</strong> Manteremos o atributo <code class="language-plaintext highlighter-rouge">border="1"</code> em todas as nossas tabelas, assim, poderemos ver o esqueleto do nosso layout enquanto o construímos. Nós removeremos esse atributo, logo ao final, usando os comandos Pesquisar &amp; Substituir.</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://d33wubrfki0l68.cloudfront.net/7d0de7d17af4b4140bee2d55e54e15e0c4714c3f/18b1e/assets/images/posts/emailhtml/estruturatable.png" alt="image" /></a></p>
+
+<p>Agora, posicione e centralize uma tabela de 600px de largura dentro da tabela envoltória. 600px é a largura máxima segura para que seus e-mails possam ser visualizados corretamente, na maioria dos clientes de e-mail web e desktop, e na maioria das resoluções.</p>
+
+<p>Configure essa largura usando HTML ao invés do CSS, usando o atributo width. A regra de ouro no desenvolvimento de e-mails em HTML é: Se um atributo ou elemento existir no HTML, use-o ao invés da propriedade CSS.</p>
+
+<p>Nós substituiremos nossa saudação ‘Olá!’ por essa tabela:</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://d33wubrfki0l68.cloudfront.net/7acbf491c60c01aad036712e49f6c03307e19af5/bd2f9/assets/images/posts/emailhtml/newestructuretable.png" alt="image" /></a></p>
+
+<p>Também adicionamos uma propriedade de estilo em linha, que configura a propriedade border-collapse para collapse. Se não fizermos isso, as novas versões do Outlook adicionarão um pequeno espaço entre nossa tabela e nossa borda.</p>
+
+<h2 id="criando-a-estrutura-e-o-cabeçalho">Criando a Estrutura e o Cabeçalho</h2>
+
+<p>Em nosso design, podemos ver que o e-mail é dividio em três seções lógicas, assim, criaremos uma linha para cada uma delas.</p>
+
+<p>Dupliquemos a linha solitária que já criamos, para que tenhamos um total de três linhas. Alterei o texto dentro delas para facilitar a identificação de cada uma.</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://d33wubrfki0l68.cloudfront.net/06afc2fcb3068ce617fbb57fad30bb25b138a285/690f4/assets/images/posts/emailhtml/newtablestructure02.png" alt="image" /></a></p>
+
+<p>Agora, coloriremos cada uma, igual ao design. Como <code class="language-plaintext highlighter-rouge">bgcolor</code> é um atributo HTML válido, nós o usuaremos para configurar a cor de fundo ao invés de fazê-lo através do CSS. Sempre lembre de usar todos os seis caracteres da representação hexadecimal, uma vez que o atalho dos três caracteres nem sempre funcionará.</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://d33wubrfki0l68.cloudfront.net/3ada959cb71148d6b6d4148eb08486ef2717546c/42aa4/assets/images/posts/emailhtml/newstructuretable03.png" alt="image" /></a></p>
+
+<p>Certo, agora, focaremos na Linha 1. Ajustaremos o espaçamento interno para, então, adicionar nossa imagem.</p>
+
+<p><strong>Usando Espaçamento Interno</strong></p>
+
+<p>Quando usarmos espaçamento interno em e-mails, sempre devemos especificar cada um dos valores (top, right, bottom e left), caso contrário, poderemos acabar com problemas inesperados (ex: <code class="language-plaintext highlighter-rouge">padding: 10px 10px 8px 5px;</code> ), mas, se ainda estiver tendo problemas, talvez queira escrever a forma completa ( <code class="language-plaintext highlighter-rouge">padding-top: 10px; padding-right: 10px; padding-bottom: 8px; padding-left: 5px;</code> ).</p>
+
+<p>Se estiver com problemas piores que não foram resolvidos da forma anterior (por exemplo, sua plataforma de envio remove seu CSS), simplesmente, não o use. Prefira usar células vazias para criar espaço. Não há necessidade de se usar GIFs espaçadores, apenas tenha certeza de adicionar <code class="language-plaintext highlighter-rouge">style="line-height: 0; font-size: 0;"</code> à célula, insira um dentro dela e especifique as altura e largura. Eis um exemplo:</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://d33wubrfki0l68.cloudfront.net/499a77b4bba645bbbc86134b846c3c891f471aaa/cdae4/assets/images/posts/emailhtml/newstructuretable04.png" alt="image" /></a></p>
+
+<p>Também perceba que é seguro usar espaçamento interno em tags td , mas não em divs ou ps. Eles se comportam de forma bem imprevisíveis.</p>
+
+<p>Assim, adicionaremos um pouco de CSS em linha para gerar espaçamento interno na célula. Depois, adicionaremos nossa imagem, configuraremos o texto alternativo e colocaremos o atributo <code class="language-plaintext highlighter-rouge">style="display:block;"</code>, que é uma forma comum de resolver o problema de espaços abaixo de imagens, que alguns clientes de e-mails adicionam. Centralizaremos nossa imagem adicionando <code class="language-plaintext highlighter-rouge">align="center"</code> à nossa tag <code class="language-plaintext highlighter-rouge">td</code>. Também adicionaremos um atributo alt, que é muito importante, uma vez que, na maioria das vezes, as imagens em nossos e-mails não serão carregadas automaticamente.</p>
+
+<p><strong>Nota:</strong> Se o conteúdo do seu cabeçalho for, realmente, importante para sua mensagem, não use um cabeçalho feito totalmente com imagem. Lembre-se, imagens são bloqueadas por padrão pela maioria dos clientes de e-mails, assim, se há algum aspecto do seu conteúdo que seja crucial, nunca o inclua em uma imagem. Nesse exemplo, porém, o meu cabeçalho é bem supérfluo.</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://d33wubrfki0l68.cloudfront.net/0ccdbae00c9e9480bf818ba452c539f687762748/302cf/assets/images/posts/emailhtml/new05.png" alt="image" /></a></p>
+
+<h2 id="criando-a-área-do-conteúdo">Criando a Área do Conteúdo</h2>
+
+<p>Primeiramente, adicionaremos espaçamento interno na célula central para que a tabela interna tenha algum espaço ao redor, como em nosso design.</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://d33wubrfki0l68.cloudfront.net/d966f4574459cd9dcf4302f9330450e684304e26/4417b/assets/images/posts/emailhtml/design01.png" alt="image" /></a></p>
+
+<p>Agora, adicionaremos uma tabela com três linhas para nosso conteúdo principal - um para a chamada principal, uma para o texto introdutório e uma para a linha com duas colunas. Configuraremos essa tabela com largura igual a 100% ao invés de usar um valor fixo em pixels, uma vez que isso nos ajudará mais à frente, quando tivermos de tornar nosso e-mail em responsivo. Se você sempre configurar as larguras em pixels, você terá inúmeros valores que terá de sobrescrever nas media queries. Se suas tabelas internas usam percentuais, então, quando ajustar a largura do elemento pai, tudo irá ajustar automaticamente.</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://d33wubrfki0l68.cloudfront.net/25080b08667948aedbf74248c329e5390c3d6c9f/136be/assets/images/posts/emailhtml/newtable06.png" alt="image" /></a></p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://d33wubrfki0l68.cloudfront.net/26d8e3b1f8287fa1d4f804d2441e8a1ee040c103/fc965/assets/images/posts/emailhtml/design02.png" alt="image" /></a></p>
+
+<p>Agora, adicionaremos nosso conteúdo e também adicionaremos o espaçamento interno para a célula central.</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://d33wubrfki0l68.cloudfront.net/c090acc58ec12b425fd5de5c6d6106aa0ed5bc83/9f834/assets/images/posts/emailhtml/newtable04.png" alt="image" /></a></p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://d33wubrfki0l68.cloudfront.net/4e8385ca3602df87f588c4afdb09ae7f580832ac/51552/assets/images/posts/emailhtml/design05.png" alt="image" /></a></p>
+
+<p>Adicionaremos, agora, nossas duas colunas de conteúdo em nossa Linha 3. Já que queremos uma “margem” entre essas duas células, porém, margin não é suportado, criaremos uma tabela com três colunas, deixando a célula central em branco entre as outras duas colunas.</p>
+
+<p>Embora eu seja adepto dos percentuais, quando temos conteúdo com um tamanho específico, pode ser bem complicado converter esse valor para percentual (nesse caso, as colunas teria 48.1% de largura, o que seria bem confuso). Por isso, e já que nossas duas imagens tem 260px de largura, com uma célula de 20px de largura no meio (Esses valores totalizarão 540px, que são os 600px de largura de nossa tabela, menos os 30px de espaçamento interno de cada lado). Tenha certeza de configurar suas font-size e line-height e adicione um na célula margem.</p>
+
+<p>Também configuraremos o atributo valign para “top” para ambas as células, assim, elas alinharão verticalmente, mesmo que uma coluna tenha mais texto que a outra. O valor padrão do alinhamento vertical é “middle”.</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://d33wubrfki0l68.cloudfront.net/098697bd7d61c144437f77db40a7f1cfd576a664/765e8/assets/images/posts/emailhtml/middletable.png" alt="image" /></a></p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://d33wubrfki0l68.cloudfront.net/ae2579df896e6761997ed687d397da41ccdbbb85/21646/assets/images/posts/emailhtml/design045.png" alt="image" /></a></p>
+
+<p>Adicionemos, agora, nossas imagens e conteúdo nas colunas. Como precisamos de muitas linhas, vamos inserir mais outra tabela porque não podemos usar os atributos colspan ou rowspan. Também adicionaremos um pouco de espaçamento interno entre a imagem e o texto em cada coluna.</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://d33wubrfki0l68.cloudfront.net/543f723ef4b10690ca1f08e57bd5164bb31f662d/4b95a/assets/images/posts/emailhtml/table001.png" alt="image" /></a></p>
+
+<p>Nós configuramos a largura das imagens, usando HTML, como sendo 100% da largura da coluna. Isso serve para quando formos ajustar a parte responsiva do e-mail, onde só precisaremos alterar a largura do elemento pai. Teremos de sobrescrever a altura em pixels, porque usar style=”height: auto”não funcionará em todos os clientes (leia-se, Outlook). Então, configuraremos em pixels mesmo. Isso significa que teremos de usar a propriedade height: auto!important nas imagens que usarmos nas media queries, para sobrescrever o valor em pixels. Poderíamos fazer isso com uma única classe, mas como não podemos usar, teremos de fazer assim. Quanto menos coisas tivermos de sobrescrever, melhor.</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://cdn.tutsplus.com/webdesign/uploads/2013/06/13.png" alt="image" /></a></p>
+
+<h2 id="o-rodapé">O Rodapé</h2>
+
+<p>Agora, adicionaremos o espaçamento interno ao nosso rodapé.</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://d33wubrfki0l68.cloudfront.net/c57af34945feb0f7352a006ff5da669604194a18/2b29d/assets/images/posts/emailhtml/rodapetable.png" alt="image" /></a></p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://cdn.tutsplus.com/webdesign/uploads/2013/06/14.png" alt="image" /></a></p>
+
+<p>Dentro dessa célula, colocaremos mais outra tabela para obtermos nossas duas colunas.</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://d33wubrfki0l68.cloudfront.net/e754efc67666e695941dda074f12f69116096906/f3f53/assets/images/posts/emailhtml/tablerodape02.png" alt="image" /></a></p>
+
+<p>Criaremos mais outra tabela para nossos ícones de redes sociais. Configuraremos a célula pai para align=”right”. Tenha certeza de configurar border=”0” nos links dessas imagens (para evitar a borda azul de âncoras) e não esqueça de aplicar o display:block.</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://d33wubrfki0l68.cloudfront.net/c21d15287b1febea221912cc69810433c3206f13/fa635/assets/images/posts/emailhtml/tableblockrodape.png" alt="image" /></a></p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://cdn.tutsplus.com/webdesign/uploads/2013/06/17.png" alt="image" /></a></p>
+
+<p>entre elas. Configuraremos essa célula com 75% de largura e a outra com 25%.</p>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://d33wubrfki0l68.cloudfront.net/37f4490f328359b72bf10285f6d6f3ef76d2a844/696a8/assets/images/posts/emailhtml/widthtablerodape.png" alt="image" /></a></p>
+
+<p>Agora é só substituir o border=”1” por border=”0” para desabilitar as bordas e ver como ficou.E acabamos! Está tudo pronto!</p>
+
+<h2 id="o-resultado-final">O resultado final:</h2>
+
+<p><a href="https://jhonathanribeiro.netlify.app/construa-um-modelo-de-email-com-apenas-HTML/"><img src="https://cdn.tutsplus.com/webdesign/uploads/2013/06/23.jpg" alt="image" /></a></p>
+
+<h2 id="ganhe-dinheiro-encurtando-links">Ganhe dinheiro encurtando links!</h2>
+
+<p>E se você pudesse receber dinheiro pelos links que você compartilha nas redes sociais? Isso é possível graças a essas gigantes abaixo, para saber mais, clica no banner abaixo, cadastre-se agora mesmo e comece a faturar encurtando os seus links. ;)</p>
+
+<p><a href="https://exe.io/ref/JhonathanRb"><img src="https://img.cut-urls.com/r2.gif" alt="" /></a></p>
+
+<p><a href="https://join-adf.ly/23571397"><img src="https://d33wubrfki0l68.cloudfront.net/2cdca305fd6b178639f6c91f896e465fdd494615/51033/assets/images/banners/adfly.gif" alt="" /></a></p>
+:ET
