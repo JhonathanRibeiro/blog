@@ -1,0 +1,16 @@
+#Description navbar
+initbio: "Desenvolvedor Web FullStack, apaixonado por HTML, CSS,"
+tecbio: "Javascript"
+endbio: " e novas tecnologias."
+
+#Navbar menus
+labelHome: "Home"
+nameLinkHome: "/"
+labelServices: "Serviços"
+nameLinkServices: "https://cleandesign.netlify.app"
+labelShop: "Loja"
+nameLinkShop: "https://johnwebstore.netlify.app/"
+labelAbout: "Sobre"
+nameLinkAbout: "/about"
+labelContact: "Contato"
+nameLinkContact: "/contact"
