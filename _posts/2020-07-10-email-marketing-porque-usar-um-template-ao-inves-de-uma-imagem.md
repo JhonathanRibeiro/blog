@@ -3,7 +3,7 @@ layout: post
 title: Email Marketing por que usar um template HTML em vez de uma imagem
 date: 2020-07-10
 description: O Email Marketing é um dos recursos de Marketing Digital mais utilizados por empresas, seja para fazer promoção de um evento ou produto, enviar uma newsletter, divulgar novos materiais educativos, dentre outros objetivos.
-img: how-to-start.jpg # Add image post (optional)
+img: /assets/img/how-to-start.jpg # Add image post (optional)
 tags: [Programming, Learn] # add tag
 ---
 O Email Marketing é um dos recursos de Marketing Digital mais utilizados por empresas, seja para fazer promoção de um evento ou produto, enviar uma newsletter, divulgar novos materiais educativos, dentre outros objetivos.

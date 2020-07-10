@@ -1,5 +1,5 @@
 ---
-layout: postLayout
+layout: post
 author: Jhonathan Ribeiro
 title: Testando novo post para er se está tudo funcionando corretamente
 description: Este post é aoenas um teste, após realizar todos os testes voce
@@ -10,7 +10,7 @@ img: /assets/img/computer-work-area.jpg
 ogtitle: testando ogtitle
 ogtype: article
 ogdescription: testando og-description
-ogimage: /assets/img/computer-work-area.jpg
+ogimage: computer-work-area.jpg
 twitter-creator: testtando-twiiter-creator
 twitter-card: teste twitter-card
 twitter-site: teste-twitter-site

@@ -3,7 +3,7 @@ layout: post
 title: Top 10 Plugins para criar fantásticas apresentações utilizando apenas HTML5 e CSS3
 date: 2020-07-10
 description: Apresentações em Powerpoint ainda são muito poderosas no mundo todo, e eu tenho um enorme respeito por ele. Porém os tempos são outros, e agora queremos algo além do PowerPoint, pois temos sites e aplicativos online, e queremos nossas apresentações na web para poder utilizar nos nossos sites. Para isso, separamos aqui uma lista com os melhores plugins javascript/jquery para você criar fantásticas apresentações em HTML 5 e CSS sem um pingo de conhecimento em Javascript.
-img: imac-plugins.jpg # Add image post (optional)
+img: /assets/img/imac-plugins.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [tools, plugins]
 ---

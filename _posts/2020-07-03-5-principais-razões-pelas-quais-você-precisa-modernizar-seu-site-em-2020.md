@@ -9,7 +9,7 @@ description: É importante entender que “redesenhar” ou “modernizar” nã
   melhor e ajudá-lo a alcançar seus objetivos de marketing...
 date: 2020-07-03 
 categories: Article webdesign
-img: how-to-start.jpg
+img: /assets/img/how-to-start.jpg
 thumbnail: how-to-start.jpg
 ogtitle: 5 principais razões pelas quais você precisa modernizar seu site em 2020!
 ogtype: article

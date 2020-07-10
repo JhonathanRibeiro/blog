@@ -3,7 +3,7 @@ layout: post
 title: Importância de um site em 2020
 date: 2020-07-10
 description: Sabemos que é quase 2020 e não 1920, o mundo dos negócios e até a sociedade se mudaram para a era digital. Com a internet e os sites se tornando cada vez mais importantes, um requisito útil para a vida moderna, mas você já sabe disso, certo? Como você não estaria aqui de outra forma.
-img: workflow.jpg # Add image post (optional)
+img: /assets/img/workflow.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Productivity, Work, Sites] # add tag
 ---

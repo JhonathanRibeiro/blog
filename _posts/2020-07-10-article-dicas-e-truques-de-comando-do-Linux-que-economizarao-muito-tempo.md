@@ -3,7 +3,7 @@ layout: post
 title: 20 dicas e truques de comando do Linux que economizarão muito seu tempo
 date: 2020-07-10
 description: 
-img: i-rest.jpg # Add image post (optional)
+img: /assets/img/i-rest.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [tools, plugins]
 ---

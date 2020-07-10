@@ -3,7 +3,7 @@ layout: post
 title: Os sites ainda são relevantes?
 date: 2020-07-10
 description: ' O brasileiro gasta em média 5,4 horas por dia em seu telefone. A geração Y passa um pouco mais de tempo em seus telefones (5,7 horas). A maioria das pessoas verifica seus telefones 58 vezes por dia!Em 2019, as pessoas gastaram 20% mais tempo usando aplicativos do que navegando na Web através de navegadores de seus telefones.'
-img: i-rest.jpg # Add image post (optional)
+img: /assets/img/i-rest.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [design, sites]
 ---

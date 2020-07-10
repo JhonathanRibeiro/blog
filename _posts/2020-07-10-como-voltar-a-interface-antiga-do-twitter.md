@@ -3,7 +3,7 @@ layout: post
 title: Como voltar à interface antiga do twitter
 date: 2020-07-10
 description: Usuários que não se adaptaram ao novo layout do Twitter para a versão web podem retornar ao visual antigo com soluções simples e grátis. A extensão GoodTwitter, disponível para Google Chrome e Mozilla Firefox, recupera todas as características da outra interface, como o menu de comando na barra superior, a coluna de Trending Topics à direita e o contador de tweets e seguidores logo na página inicial. Quem usa Firefox conta, ainda, com um método adicional para ter a versão anterior de volta. Confira, no tutorial a seguir, opções para voltar ao Twitter antigo.
-img: i-rest.jpg # Add image post (optional)
+img: /assets/img/i-rest.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [tools, plugins]
 ---

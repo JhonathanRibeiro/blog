@@ -3,7 +3,7 @@ layout: post
 title: "4 ferramentas incríveis do Google que não são muito conhecidas"
 date: 2020-07-10
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: how-to-start.jpg
+img: /assets/img/how-to-start.jpg
 ---
 O Google pode ser um grande aliado quando o assunto é produtividade. Quem trabalha online sabe o quanto algumas ferramentas podem ser importantes para otimizar os processos e ajudar uma empresa a se organizar.
 
