@@ -1,16 +1,4 @@
-#Description navbar
-initbio: "Desenvolvedor Web FullStack, apaixonado por HTML, CSS,"
-tecbio: "Javascript"
-endbio: " e novas tecnologias."
-
-#Navbar menus
-labelHome: "Home"
-nameLinkHome: "/"
-labelServices: "Serviços"
-nameLinkServices: "https://cleandesign.netlify.app"
-labelShop: "Loja"
-nameLinkShop: "https://johnwebstore.netlify.app/"
-labelAbout: "Sobre"
-nameLinkAbout: "/about"
-labelContact: "Contato"
-nameLinkContact: "/contact"
+#SEO - Meta tags values
+title: Blog Jhonathan Ribeiro
+description: > 
+  Bem vindo ao meu blog! Aqui você encontra artigos sobre tecnologia, dicas, snippets e muito mais. Inscreva-se agora mesmo em nossa Newsletter e fique por dentro de todas as nossas novidades.
