@@ -2,7 +2,7 @@ backend:
  name: github
  repo: JhonathanRibeiro/blog
 
-media_folder: "assets/uploads"
+media_folder: "assets/img"
 
 collections:
  - name: "Site-settings"
