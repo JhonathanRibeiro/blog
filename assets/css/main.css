@@ -277,52 +277,28 @@ html [type="button"],
 * Personalized Design Buttons
 */
 .btn {
-  padding: 0.75em;
-  border: none;
+  /* padding: 0.75em; */
+  border: none!important;
   font-family: sans-serif;
   border-radius: 3px;
 }
-/* .btn-primary:focus{
-  outline-style: none;
-} */
-.btn-primary {
-  background-color: #4169e1;
-  color: #f1f1f1;
-}
-.btn-primary:hover {
-  background-color: #3059d4;
-  color: #f1f1f1;
-  cursor: pointer;
-}
-.btn-primary:focus {
-  outline-color: #3059d4;
-}
-.btn-secondary {
-  background-color: #707070;
-  color: #f1f1f1;
-}
-.btn-secondary:hover {
-  background-color: #535455;
-  color: #f1f1f1;
-  cursor: pointer;
-}
-.btn-secondary:focus {
-  outline-color: #707070;
-}
 .btn-bluegreen {
   background: linear-gradient(150deg,rgba(10,76,101,.91) 30%,rgba(15,113,104,.98) 70%)!important;
-  color: #f1f1f1;
+  color: #f1f1f1!important;
   font-weight: 700;
 }
 .btn-bluegreen:hover {
   background: linear-gradient(150deg,rgba(9, 70, 92, 0.91) 30%,rgba(12, 99, 90, 0.98) 70%)!important;
   cursor: pointer;
-  color: #f1f1f1;
+  color: #f1f1f1!important;
 }
 .btn-bluegreen:focus{
-  outline-color: rgba(12, 99, 90, 0.98);
+  outline-color: rgba(12, 99, 90, 0.98)!important;
 }
-
+/* settings pagination button */
+.btn-group, .btn-group-vertical{
+  width: 100%!important;
+}
 /* Backgrounds Personalized */
 .bg-bluegreen {
   background: linear-gradient(150deg,rgba(10,76,101,.91) 30%,rgba(15,113,104,.98) 70%)!important;
@@ -1270,7 +1246,7 @@ footer .copyright {
 a.older-posts, a.newer-posts {
   font-size: 18px;
   display: inline-block;
-  color: #515151;
+  color: #f1f1f1;
   -webkit-transition: -webkit-transform .2s;
   transition: -webkit-transform .2s;
   -o-transition: transform .2s;
@@ -1282,12 +1258,16 @@ a.older-posts:hover {
   -webkit-transform: translateX(5px);
       -ms-transform: translateX(5px);
           transform: translateX(5px);
+          color: #f1f1f1;
+          text-decoration: none;
 }
 
 a.newer-posts:hover {
   -webkit-transform: translateX(-5px);
       -ms-transform: translateX(-5px);
           transform: translateX(-5px);
+          color: #f1f1f1;
+          text-decoration: none;
 }
 
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
