@@ -57,8 +57,11 @@
   {% else %}
     <meta name="twitter:description" content="{{ site.description }}">
   {% endif %}
-    <meta name="twitter:image" content="https://instagram.ffbe1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/57244840_668833136903859_1677645282726117376_n.jpg?_nc_ht=instagram.ffbe1-1.fna.fbcdn.net&_nc_ohc=WuE_OIhaVOEAX9riRol&oh=069aaef4543165139e9bc00af07ddc55&oe=5F3469FE">
-
+  {% if page.img %}
+  <meta name="twitter:image" content="https://jhonathanribeiro.netlify.app{{ page.img }}">
+  {% else%}
+  <meta name="twitter:image" content="https://jhonathanribeiro.netlify.app/assets/img/{{ site.img-openGraph }}">
+  {%endif%}
   <meta name="description" content="{% if page.description %}{{page.description}} - {{site.description}}{% else %}{{site.description}}{% endif %}">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
