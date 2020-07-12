@@ -34,12 +34,12 @@
     {% endfor %}
   {% endif %}
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@{{ site.data.site.twitter-site }}">
-    <meta name="twitter:creator" content="@{{ site.data.site.twitter-creator }}">
+    <meta name="twitter:site" content="@{{ site.data.links-social-media.twitter-site }}">
+    <meta name="twitter:creator" content="@{{ site.data.links-social-media.twitter-creator }}">
   {% if page.title %}
     <meta name="twitter:title" content="{{ page.title }}">
   {% else %}
-    <meta name="twitter:title" content="{{ site.data.site.twitter-title }}">
+    <meta name="twitter:title" content="{{ site.data.site.title }}">
   {% endif %}
   {% if page.url %}
     <meta name="twitter:url" content="https://jhonathanribeiro.netlify.app/">
