@@ -33,7 +33,6 @@
     <meta content="{{ tag }}" property="article:tag">
     {% endfor %}
   {% endif %}
-
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@{{ site.data.site.twitter-site }}">
     <meta name="twitter:creator" content="@{{ site.data.site.twitter-creator }}">
@@ -43,7 +42,7 @@
     <meta name="twitter:title" content="{{ site.data.site.twitter-title }}">
   {% endif %}
   {% if page.url %}
-    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+    <meta name="twitter:url" content="https://jhonathanribeiro.netlify.app/">
   {% endif %}
   {% if page.description %}
     <meta name="twitter:description" content="{{ page.description }}">
@@ -51,9 +50,9 @@
     <meta name="twitter:description" content="{{ site.description }}">
   {% endif %}
   {% if page.img %}
-    <meta name="twitter:image:src" content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ page.img }}">
+    <meta name="twitter:image:src" content="https://jhonathanribeiro.netlify.app/assets/img/{{ site.page.img }}">
   {% else %}
-    <meta name="twitter:image:src" content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.author-img }}">
+    <meta name="twitter:image:src" content="https://jhonathanribeiro.netlify.app/assets/img/{{ site.img-openGraph }}">
   {% endif %}
 
   <meta name="description" content="{% if page.description %}{{page.description}} - {{site.description}}{% else %}{{site.description}}{% endif %}">
