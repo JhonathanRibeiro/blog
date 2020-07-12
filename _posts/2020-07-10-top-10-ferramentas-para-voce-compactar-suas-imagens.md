@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Jhonathan Ribeiro
 title:  Top 10 ferramentas para você compactar suas imagens
 date: 2020-07-10
 description: Compactadores de imagem hoje são os principais sites mais utilizados pelos desenvolvedores web, e quem nos obriga a utilizá-los é o próprio Google.

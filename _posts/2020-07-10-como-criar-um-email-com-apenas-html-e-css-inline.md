@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Jhonathan Ribeiro
 title: Como criar um email com apenas HTML
 date: 2020-07-10
 description: A melhor forma de entender qualquer processo é realizá-lo desde o começo, hoje faremos isso com o design de e-mails,construindo um modelo de e-mail em HTML, do zero.

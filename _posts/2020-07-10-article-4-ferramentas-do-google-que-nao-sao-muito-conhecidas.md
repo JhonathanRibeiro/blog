@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Jhonathan Ribeiro
 title: "4 ferramentas incríveis do Google que não são muito conhecidas"
 date: 2020-07-10
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)

@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Jhonathan Ribeiro
 title:  10 ferramentas para animação CSS3 que todo Front End deve conhecer
 date: 2020-07-10
 description: A última versão do CSS, denominada CSS 3, tem sido a mais popular e com ótima reputação entre a maioria dos designers, porém o processo de aprendizagem não é nada fácil, e muitos navegadores ainda não são compatíveis com todos os poderosos recursos que a linguagem possui.

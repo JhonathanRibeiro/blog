@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Jhonathan Ribeiro
 title: 20 dicas e truques de comando do Linux que economizarão muito seu tempo
 date: 2020-07-10
 description: 

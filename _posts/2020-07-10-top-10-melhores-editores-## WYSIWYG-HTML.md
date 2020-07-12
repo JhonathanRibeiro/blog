@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Jhonathan Ribeiro
 title:  Top 10 melhores editores WYSIWYG HTML
 date: 2020-07-10
 description: Já foi a época que existia apenas uma ferramenta para transformar um textarea em um editor de texto, e para isso o programador tinha que manjar muito da ferramenta e se desdobrar lendo documentações para aplicar um simples bold, itálico em suas caixas de texto para que seus clientes pudessem interagir de forma mais interessantes com os dados do seu site. Agora temos inúmeras ferramentas para isso, e neste post você vai encontrar as 14 ferramentas mais utilizadas pelos programadores para que você possa escolher a melhor para implementar nos seus projetos.

@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Jhonathan Ribeiro
 title: 10 razões pelas quais sua empresa precisa de um site em 2020
 date: 2020-07-10
 description: O comportamento do consumidor mudou ao longo do tempo para se adaptar às tecnologias em evolução na era digital. Por exemplo, as grossas páginas amarelas, populares **há pouco tempo** , foram substituídas por diretórios on-line com o advento da World Wide Web. # Add post description (optional)
