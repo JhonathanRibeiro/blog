@@ -13,6 +13,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Jhonathan Ribeiro # add your name
 author-img: jhonathan.png # add your photo
+img-openGraph: woman-using-notebook-for-home-working.jpg
 about-author: Sou desenvolvedor web focado no desenvolvimento front-end. Entusiasta de novas tecnologias Web e Mobile.
 
 # Disqus
