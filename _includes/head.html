@@ -1,7 +1,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
-    <meta content="{{ site.title }}" property="og:site_name">
+    <meta content="{{ page.title }}" property="og:site_name">
   {% if page.title %}
     <meta content="{{ page.title }}" property="og:title">
   {% else %}
@@ -17,12 +17,20 @@
   {% else %}
     <meta content="{{ site.description }}" property="og:description">
   {% endif %}
-    <meta content="https://jhonathanribeiro.netlify.app/" property="og:url">
+  {% if page.url %}
+    <meta content="https://jhonathanribeiro.netlify.app/{{page.slug}}" property="og:url">
+  {% else %}
+    <meta content="https://jhonathanribeiro.netlify.app/{{site.slug}}" property="og:url">
+  {%endif%}
   {% if page.date %}
     <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
     <meta content="{{ site.url }}/about/" property="article:author">
   {% endif %}
-  <meta content="https://jhonathanribeiro.netlify.app/assets/img/{{ site.img-openGraph }}" property="og:image">
+  {% if page.img %}
+  <meta property="og:image" content="https://jhonathanribeiro.netlify.app{{ page.img }}">
+  {% else%}
+  <meta property="og:image" content="https://jhonathanribeiro.netlify.app/assets/img/{{ site.img-openGraph }}">
+  {%endif%}
   {% if page.categories %}
     {% for category in page.categories limit:1 %}
     <meta content="{{ category }}" property="article:section">
@@ -54,9 +62,6 @@
   <meta name="description" content="{% if page.description %}{{page.description}} - {{site.description}}{% else %}{{site.description}}{% endif %}">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  
-  <meta property="og:image" content="https://jhonathanribeiro.netlify.app/assets/img/{{ site.img-openGraph }}">
-
 	<link rel="shortcut icon" href="{{ "/assets/img/favicon/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
 	<link rel="apple-touch-icon" href="{{ "/assets/img/favicon/apple-touch-icon.png" | prepend: site.baseurl }}">
 	<link rel="apple-touch-icon" sizes="72x72" href="{{ "/assets/img/favicon/apple-touch-icon-72x72.png" | prepend: site.baseurl }}">
