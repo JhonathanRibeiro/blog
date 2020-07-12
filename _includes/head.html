@@ -65,7 +65,16 @@
   <meta name="description" content="{% if page.description %}{{page.description}} - {{site.description}}{% else %}{{site.description}}{% endif %}">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta property="og:image" content="">
+  
+  {% if page.img %}
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ page.img }}">
+  {% else %}
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.author-img }}">
+  {% endif %}
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="800"> 
+  <meta property="og:image:height" content="600"> 
+
 	<link rel="shortcut icon" href="{{ "/assets/img/favicon/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
 	<link rel="apple-touch-icon" href="{{ "/assets/img/favicon/apple-touch-icon.png" | prepend: site.baseurl }}">
 	<link rel="apple-touch-icon" sizes="72x72" href="{{ "/assets/img/favicon/apple-touch-icon-72x72.png" | prepend: site.baseurl }}">
@@ -75,7 +84,9 @@
 	<!-- Windows Phone -->
 	<meta name="msapplication-navbutton-color" content="#263959">
 	<!-- iOS Safari -->
-	<meta name="apple-mobile-web-app-status-bar-style" content="#263959">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#263959">
+  <!-- meta tag HREFLANG -->
+  <link rel="alternate" hreflang="pt" href="https://jhonathanribeiro.netlify.app">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Lato:300,400,700&display=swap" rel="stylesheet">
 	<!-- Font Awesome -->
@@ -110,5 +121,26 @@
       delay: 2
 
     });
+  </script>
+
+  <!-- SCHEMA -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "WebSite",
+    "name": "Blog Jhonathan Ribeiro",
+    "url": "https://jhonathanribeiro.netlify.app",
+    "sameAs" : [
+      "https://twitter.com/Jhonathanjbr",
+      "https://www.facebook.com/Jhonathanjbr",
+      "https://www.instagram.com/jhonathan.rb/?hl=pt-br",
+      "https://www.linkedin.com/in/jhonathan-ribeiro/"
+   ],
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://jhonathanribeiro.netlify.app{search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
   </script>
 </head>
