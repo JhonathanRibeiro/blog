@@ -1,6 +1,4 @@
 User-agent: *
 Disallow: /admin/ 
-Disallow: /_data/
-Disallow: /assets/
 Disallow: /cgi-bin/
 Sitemap: https://jhonathanribeiro.netlify.app/sitemap.xml
