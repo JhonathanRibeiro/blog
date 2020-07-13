@@ -6,7 +6,7 @@ layout: main
     <header class="header-page">
       <h1 class="page-title">{{page.title}}</h1>
       <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
-      <div class="page-author"><span>Autor: {{page.author}}</span></div>
+      <div class="page-author"><span>{{page.author}}</span></div>
     </header>
     {% if page.img %}
     <div class="page-cover-image">
@@ -38,6 +38,11 @@ layout: main
             rel="nofollow" target="_blank" data-action="share/whatsapp/share">
             <i class="fa fa-whatsapp" aria-hidden="true"></i>
             Whatsapp</a>
+
+            <a href="http://pinterest.com/pin/create/button/?url=https://jhonathanribeiro.netlify.app{{page.url}}&media=https://jhonathanribeiro.netlify.app{{page.img}}&description=https://jhonathanribeiro.netlify.app{{page.description}}"
+              title="Share on Pinterest" rel="nofollow" target="_blank">
+              <i class="fa fa-pinterest" aria-hidden="true"></i>
+              Pinterest</a>
         </div>
         <div class="page-tag">
           {% for tag in page.tags %}
