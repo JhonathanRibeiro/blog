@@ -8,6 +8,8 @@ description: Uma das lições dos antigos mais básica sobre como lidar com o
 date: 2020-07-12
 tags: Finanças
 img: /assets/img/jardim-da-babilonia-blog-jhonathan-ribeiro-dev-web-e-mobile.jpg
+link_font: https://www.cooperativismodecredito.coop.br/2020/07/licoes-da-babilonia-comece-a-fazer-seu-dinheiro-crescer-por-elvira-cruvinel-e-chael-mazza/
+font_title: Portal do cooperativismo financeiro
 ogtitle: "Lições da Babilônia: Comece a fazer seu dinheiro crescer"
 ogtype: article
 ogdescription: Uma das lições dos antigos mais básica sobre como lidar com o
