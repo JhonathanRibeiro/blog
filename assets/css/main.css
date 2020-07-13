@@ -273,6 +273,10 @@ html [type="button"],
   -webkit-appearance: button;
   /* 2 */
 }
+span#blog-txt {
+    /* opacity: 0; */
+    font-size: 0;
+}
 /*
 * Personalized Design Buttons
 */
