@@ -3,6 +3,4 @@ Disallow: /admin/
 Disallow: /_data/
 Disallow: /assets/
 Disallow: /cgi-bin/
-Allow: /
-
-https://jhonathanribeiro.netlify.app/sitemap.xml
+Sitemap: https://jhonathanribeiro.netlify.app/sitemap.xml
