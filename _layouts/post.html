@@ -20,8 +20,37 @@ layout: main
     {% else %}
     {% endif %}
     <div class="wrap-content">
-     
       {{content | markdownify}}
+      
+      <section class="container mt-5 mb-5">
+        <h2 class="title">{{site.data.site.section_earn_title}}</h2>
+        <p>{{site.data.site.section_earn_description}}</p>
+        <div class="row">
+          <div class="col-md-6">
+            <a href="{{site.data.site.section_earn_link}}">
+              <img src="{{site.data.site.section_earn_img}}">
+            </a>
+          </div>
+        </div>
+      </section>
+      
+      <div class="mb-5">
+        <h2>Fonte:</h2>
+        <ul>
+          <li>
+            {% if page.link_font %}
+            <a href="{{page.link_font}}" target="_blank">
+              {{page.font_title}}
+            </a>
+            {%else%}
+            <a href="{{site.data.site.link_font}}" target="_blank">
+              {{site.data.site.font_title}}
+            </a>
+            {%endif%}
+          </li>
+        </ul>
+      </div>
+
       <h3>Compartilhe</h3>
       <div class="page-footer">
         <div class="page-share">
