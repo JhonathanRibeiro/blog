@@ -58,8 +58,6 @@ De acordo com pesquisas feitas pelo Google, o site móvel deve abrir em até 8 s
 
 [Clique aqui e conheça nossos pacotes de webdesign](https://cleandesign.netlify.app/)
 
-## Ganhe dinheiro encurtando links!
 
-E se você pudesse receber dinheiro pelos links que você compartilha nas redes sociais? Isso é possível graças a essas gigantes abaixo, para saber mais, clica no banner abaixo, cadastre-se agora mesmo e comece a faturar encurtando os seus links. ;)
 
-[![](https://img.cut-urls.com/r2.gif)](https://exe.io/ref/JhonathanRb)
+

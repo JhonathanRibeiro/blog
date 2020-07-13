@@ -45,8 +45,6 @@ Já foi a época que existia apenas uma ferramenta para transformar um textarea 
 
 ![](https://i1.wp.com/www.upmasters.com/wp-content/uploads/2014/09/010-TINYEDITOR.jpg?w=690&ssl=1)
 
-## Ganhe dinheiro encurtando links!
 
 E se você pudesse receber dinheiro pelos links que você compartilha nas redes sociais? Isso é possível graças a essas gigantes abaixo, para saber mais, clica no banner abaixo, cadastre-se agora mesmo e comece a faturar encurtando os seus links.
 
-[![](https://d33wubrfki0l68.cloudfront.net/2cdca305fd6b178639f6c91f896e465fdd494615/51033/assets/images/banners/adfly.gif)](https://join-adf.ly/23571397)

@@ -74,10 +74,3 @@ Ter um site com diferenciação de marca, projetado profissionalmente, é fundam
 Então, em vez de perguntar por que sua empresa precisa de um site, pergunte por que não!
 
 [Clique aqui e conheça nossos pacotes de webdesign](https://cleandesign.netlify.app/)
-
-## Ganhe dinheiro encurtando links!
-
-E se você pudesse receber dinheiro pelos links que você compartilha nas redes sociais? Isso é possível graças a essas gigantes abaixo, para saber mais, clica no banner abaixo, cadastre-se agora mesmo e comece a faturar encurtando os seus links. ;)
-
-
-[![](https://d33wubrfki0l68.cloudfront.net/2cdca305fd6b178639f6c91f896e465fdd494615/51033/assets/images/banners/adfly.gif)](https://join-adf.ly/23571397)

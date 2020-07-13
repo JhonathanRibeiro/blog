@@ -368,10 +368,3 @@ Nada diz mais sobre negócios profissionais do que seu próprio site profissiona
 
 [Clique aqui e confira nossos pacotes de Web Design e saia na frente dos concorrentes.](https://jhonathanribeiro.netlify.app/a-importancia-de-um-site-em-2020/#)
 
-## Ganhe dinheiro encurtando links!
-
-E se você pudesse receber dinheiro pelos links que você compartilha nas redes sociais? Isso é possível graças a essas gigantes abaixo, para saber mais, clica no banner abaixo, cadastre-se agora mesmo e comece a faturar encurtando os seus links. ;)
-
-
-
-[![](https://d33wubrfki0l68.cloudfront.net/2cdca305fd6b178639f6c91f896e465fdd494615/51033/assets/images/banners/adfly.gif)](https://join-adf.ly/23571397)

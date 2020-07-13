@@ -70,11 +70,10 @@ Se você quer conhecer mais, principalmente dos aplicativos (que são muito úte
 
 Gostou das ferramentas que foram descritas neste artigo? Utiliza algumas dessas ou gosta de alguma outra que não foi mencionado? Deixe o seu comentário abaixo sobre as melhores ferramentas que o Google oferece!
 
-## Ganhe dinheiro encurtando links!
 
-E se você pudesse receber dinheiro pelos links que você compartilha nas redes sociais? Isso é possível graças a essas gigantes abaixo, para saber mais, clica no banner abaixo, cadastre-se agora mesmo e comece a faturar encurtando os seus links. ;)
 
-[![](https://img.cut-urls.com/r2.gif)](https://exe.io/ref/JhonathanRb)
+
+
 
 <!-- 
 {% highlight javascript %}

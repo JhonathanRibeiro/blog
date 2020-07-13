@@ -42,9 +42,3 @@ A melhor forma de se certificar de que a mensagem do email será transmitida ao 
 * Use alt tags nas imagens, sempre colocando um texto que a descreva. É possível, inclusive, utilizar esse espaço paraa área se encorajar a exibição da imagem, escrevendo na alt tag, por exemplo, “eBook Introdução ao Email Marketing – Clique em ‘Autorizar imagens’ para visualizar.”
 * Coloque links também nas imagens, pois, mesmo que elas não sejam exibidas, as áreas serão clicáveis. Essa prática é bastante útil quando se usa alt tags;
 * A dica final e não menos importante é verificar se o serviço de Email Marketing que sua empresa utiliza possui templates prontos em HTML para envio de emails.
-
-## Ganhe dinheiro encurtando links!
-
-E se você pudesse receber dinheiro pelos links que você compartilha nas redes sociais? Isso é possível graças a essas gigantes abaixo, para saber mais, clica no banner abaixo, cadastre-se agora mesmo e comece a faturar encurtando os seus links. ;)
-
-[![](https://d33wubrfki0l68.cloudfront.net/2cdca305fd6b178639f6c91f896e465fdd494615/51033/assets/images/banners/adfly.gif)](https://join-adf.ly/23571397)
