@@ -37,7 +37,3 @@ Mais de 80.000 pesquisas no Google são enviadas a cada segundo. Classificar-se 
 ### Conclusão
 
 O ponto principal aqui é que os sites ainda são relevantes em 2020 e continuarão sendo relevantes nos próximos anos. Não há outro meio de comunicação que ofereça tanto controle sobre seu conteúdo e mensagem quanto um site. Embora aplicativos e mídias sociais possam funcionar para grupos de nicho ou preços, o investimento relativamente pequeno em seu próprio site compensa imediatamente.
-
-### Precisando de um site?
-
-[Clique aqui e conheça nossos pacotes de webdesign](https://cleandesign.netlify.app/)

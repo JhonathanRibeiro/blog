@@ -1,0 +1,14 @@
+<div class="mb-5">
+    {% if page.link_font %}
+    <h2>Fonte:</h2>
+    <ul>
+        <li>
+            <a href="{{page.link_font}}" target="_blank">
+                {{page.font_title}}
+            </a>
+            {%else%}
+            <span></span>
+            {%endif%}
+        </li>
+    </ul>
+</div>

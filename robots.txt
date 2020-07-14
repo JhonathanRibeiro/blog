@@ -1,6 +1,11 @@
 User-agent: *
+Noindex: about.html
+Noindex: contact.html
+Noindex: tags.html
+Noindex: /pages/
+Noindex: /admin/
 Disallow: /admin/ 
+Disallow: /pages/
 Disallow: /cgi-bin/
-
 
 Sitemap: https://jhonathanribeiro.netlify.app/sitemap.xml

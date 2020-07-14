@@ -252,8 +252,3 @@ Eu deliberadamente não incluí comandos como [fuck](https://github.com/nvbn/the
 Eu também sugeriria usar o comando alias no Linux para substituir comandos complicados por um simples. Economiza muito tempo.
 
 Eu sei que existem mais truques de comando do Linux para economizar tempo no terminal. Por que não compartilhar algumas de suas experiências com o Linux e compartilhar seu melhor truque com o resto da comunidade aqui? A seção de comentários abaixo está à sua disposição.
-
-
-### Precisando de um site?
-
-[Clique aqui e conheça nossos pacotes de webdesign](https://cleandesign.netlify.app/)

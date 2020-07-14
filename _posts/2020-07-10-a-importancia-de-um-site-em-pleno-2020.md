@@ -365,6 +365,3 @@ Podemos resumir e dizer que todo mundo tem um site hoje em dia, mas isso não co
 Se você quer ser levado a sério como empresa, precisa levar a sério a tarefa de assumir negócios.
 
 Nada diz mais sobre negócios profissionais do que seu próprio site profissional. Nada se conecta mais com seus clientes online. Adicione isso a todos os grandes benefícios que um site traz para sua empresa em um nível funcional, um nível de vendas. Deve ser uma das primeiras coisas que uma empresa de qualquer tamanho faz, é de missão crítica se você quiser avançar ou apenas se certificar de que não acaba voltando para trás.
-
-[Clique aqui e confira nossos pacotes de Web Design e saia na frente dos concorrentes.](https://jhonathanribeiro.netlify.app/a-importancia-de-um-site-em-2020/#)
-

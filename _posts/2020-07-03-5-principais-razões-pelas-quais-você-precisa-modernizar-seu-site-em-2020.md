@@ -52,13 +52,9 @@ A arquitetura do seu site tem o poder de influenciar drasticamente a experiênci
 
 **Recursos com defeito / confusos**- Se você incorporou plug-ins ou módulos de terceiros para aumentar a funcionalidade do seu site, é muito importante que eles sejam gerenciados e atualizados regularmente. Coisas como widgets de carrinho de compras, formulários de contato, widgets pop-up, gerentes de associação e questionários, todos requerem gerenciamento de rotina para garantir funcionalidade otimizada e consistente. Se esses recursos do seu site não estiverem funcionando corretamente, eles frustrarão seus visitantes e os forçarão rapidamente a ir para outro lugar. Além disso, se você tem um site bonito, confuso ou desajeitado, os usuários também saem porque estão frustrados ou acham o site difícil de envolver. A funcionalidade e a usabilidade, acima de tudo, devem ser o foco principal da sua presença na web - caso contrário, seus esforços de geração de tráfego e leads sofrerão dramaticamente.
 
-
-
 ## \# 2 - Design desatualizado de sites
 
 As empresas optam por redesenhar seu site por uma ampla variedade de razões. Normalmente, um design de site desatualizado é o primeiro gatilho. Geralmente, é recomendável que um site seja modernizado a cada três anos; no entanto, muitas empresas optam por gastar dinheiro para fazer curativos e sustentar um site que foi construído décadas atrás. Infelizmente, mesmo pessoas sem experiência em web design podem ver claramente quando um site está desatualizado. Torna-se óbvio para eles quando eles estão comparando você com seus concorrentes durante o processo de compra. Com tudo igual, os consumidores médios geralmente escolhem fazer negócios com uma empresa que possui um site moderno, atraente e de fácil navegação. Para eles, é um reflexo direto do que a empresa representa e define suas expectativas. Empresas mais estabelecidas podem ser capazes de contornar isso,
-
-
 
 ## \# 3 - O conteúdo e as mensagens do site não são claros e concisos
 
@@ -67,8 +63,6 @@ Ter um conteúdo bem elaborado, atencioso e relevante em seu site melhorará dra
 ## \# 4 - Navegação confusa e / ou falta de funcionalidade de pesquisa no local
 
 Pode parecer uma observação óbvia, mas todo esse conteúdo relevante e significativo é inútil se seus visitantes não conseguirem encontrá-lo! O que separa um site de uma brochura impressa sobre uma mesa é a capacidade de um usuário navegar rapidamente no site e encontrar as informações, conteúdo ou produtos que estamos buscando; e esse processo de navegação deve ser o mais simples e intuitivo possível. Quando alguém visita um site, espera poder movê-lo com relativa facilidade e pouca confusão. Infelizmente, muitos sites não são projetados com a experiência do usuário em mente. Uma sólida experiência do usuário EXIGE um sistema de navegação sólido, sem ele o seu site não está fazendo muito mais do que o folheto impresso de 10 páginas sobre a mesa. Para avaliar seu site, observe atentamente quantos itens você tem em sua navegação, o idioma / mensagem que você está usando, o local dos principais elementos de navegação e quantos níveis e subníveis existem para navegar. Em seguida, pense no conteúdo mais importante do seu site - ele é facilmente acessível na página inicial? Caso contrário, talvez seja hora de repensar seu site, seu mapa do site e como o site é navegado pelos visitantes.
-
-
 
 ## Nº 5 - Seu site não está alcançando consistentemente os objetivos que você definiu para ele
 
@@ -79,7 +73,3 @@ Talvez a aparência, o conteúdo e a navegação do seu site sejam perfeitos, ma
 Já vi sites de todas as formas e tamanhos, de brilhantes a completamente disfuncionais. Seu site pode viver solidamente no meio da curva do sino a esse respeito, no entanto, isso não significa que ele não possa se beneficiar de alguma modernização. Assim como todas as outras tecnologias, a tecnologia dos sites está em constante evolução e mudança. Muitas vezes, os elementos de um site que eram altamente eficazes quando um site foi construído perdem sua eficácia ao longo do tempo; e, dependendo da natureza da sua empresa, você pode nem perceber como um problema pequeno pode afetar sua empresa.
 
 Embora possa ser difícil compreender e validar completamente a decisão de avançar e modernizar, é importante ter em mente que o tempo voa no que se refere à tecnologia e as expectativas do usuário voam junto com ele. Seu site é uma representação online de sua organização 24 horas por dia, 7 dias por semana. Ele precisa mostrar adequadamente sua marca, sua mensagem e sua missão. Deve gerar resultados, em vez de dificultar seus esforços.
-
-**Você precisa de uma atualização para 2020?**
-
-<a href="https://cleandesign.netlify.app" target="_blank">Clique aqui e conheça nossos pacotes de webdesign</a>

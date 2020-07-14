@@ -16,6 +16,11 @@ author-img: jhonathan.png # add your photo
 img-openGraph: woman-using-notebook-for-home-working.jpg
 about-author: Sou desenvolvedor web focado no desenvolvimento front-end. Entusiasta de novas tecnologias Web e Mobile.
 
+#Agency reference
+agency-txt:   Webdesign Premium
+agency-link:  https://cleandesign.netlify.app/
+agency-title: Precisando de um site?
+
 # Disqus
 discus-identifier: Jhonathan Ribeiro # add your discus identifier
 
@@ -32,7 +37,7 @@ plugins:
 gems: 
  - jekyll-sitemap
 
-paginate: 4
+paginate: 5
 paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

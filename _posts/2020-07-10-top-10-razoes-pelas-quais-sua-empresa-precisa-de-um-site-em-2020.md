@@ -72,5 +72,3 @@ A criação de sites deve ser um produto de várias sessões de brainstorming, p
 Ter um site com diferenciação de marca, projetado profissionalmente, é fundamental para aumentar as vendas, impulsionar os resultados e expandir seus negócios. Dá a você a chance de estar na frente do público-alvo certo com a história da sua marca. Além disso, ter um site básico custa muito pouco comparado com os enormes retornos que podem proporcionar a longo prazo.
 
 Então, em vez de perguntar por que sua empresa precisa de um site, pergunte por que não!
-
-[Clique aqui e conheça nossos pacotes de webdesign](https://cleandesign.netlify.app/)

@@ -59,11 +59,6 @@ Apresentações em Powerpoint ainda são muito poderosas no mundo todo, e eu ten
 
 ![](https://i2.wp.com/www.upmasters.com/wp-content/uploads/2018/01/Webslides.jpg?resize=696%2C520&ssl=1)\
 [DEMO](https://webslides.tv/#slide=1) [DOWNLOAD](https://github.com/webslides/webslides/)
-
-### Precisando de um site?
-
-[Clique aqui e conheça nossos pacotes de webdesign](https://cleandesign.netlify.app/)
-
-
+ 
 
 

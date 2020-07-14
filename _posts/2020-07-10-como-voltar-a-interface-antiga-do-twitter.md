@@ -87,11 +87,3 @@ Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrom
 [![Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto](https://uploaddeimagens.com.br/images/002/682/765/full/about-config-ff5.jpeg?1590956069)](https://jhonathanribeiro.netlify.app/como-voltar-a-interface-antiga-do-twitter/)
 
 Acesse a página da extensão na Web Store para adicionar o GoodTwitter ao Chrome — Foto
-
-### Precisando de um site?
-
-[Clique aqui e conheça nossos pacotes de webdesign](https://cleandesign.netlify.app/)
-
-
-
-

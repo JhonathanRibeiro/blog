@@ -53,11 +53,6 @@ De acordo com pesquisas feitas pelo Google, o site móvel deve abrir em até 8 s
 ## [10 – ImageOptim](https://imageoptim.com/mac)
 
 ![](https://i2.wp.com/www.upmasters.com/wp-content/uploads/2018/03/10-imageoptim.jpg?w=625&ssl=1)
-
-### Precisando de um site?
-
-[Clique aqui e conheça nossos pacotes de webdesign](https://cleandesign.netlify.app/)
-
-
+ 
 
 

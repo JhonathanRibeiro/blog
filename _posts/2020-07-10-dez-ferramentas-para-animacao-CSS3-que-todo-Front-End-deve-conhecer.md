@@ -65,11 +65,3 @@ Bom, das 10 ferramentas que estou apresentando a você, as duas primeiras são m
 ### E chegamos ao fim!
 
 Espero que tenha ajudado, até a próxima!😅
-
-### Precisando de um site?
-
-[Clique aqui e conheça nossos pacotes de webdesign](https://cleandesign.netlify.app/)
-
-
-
-

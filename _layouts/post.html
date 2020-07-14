@@ -5,8 +5,8 @@ layout: main
   <div class="page-content">
     <header class="header-page">
       <h1 class="page-title">{{page.title}}</h1>
-      <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       <div class="page-author"><span>{{page.author}}</span></div>
+      <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
     </header>
     {% if page.img %}
     <div class="page-cover-image">
@@ -17,67 +17,13 @@ layout: main
         {% endif %}
       </figure>
     </div>
-    {% else %}
     {% endif %}
     <div class="wrap-content">
       {{content | markdownify}}
-      
-      <section class="container mt-5 mb-5">
-        <h2 class="title">{{site.data.site.section_earn_title}}</h2>
-        <p>{{site.data.site.section_earn_description}}</p>
-        <div class="row">
-          <div class="col-md-6">
-            <a href="{{site.data.site.section_earn_link}}">
-              <img src="{{site.data.site.section_earn_img}}">
-            </a>
-          </div>
-        </div>
-      </section>
-      
-      <div class="mb-5">
-        <h2>Fonte:</h2>
-        <ul>
-          <li>
-            {% if page.link_font %}
-            <a href="{{page.link_font}}" target="_blank">
-              {{page.font_title}}
-            </a>
-            {%else%}
-            <a href="{{site.data.site.link_font}}" target="_blank">
-              {{site.data.site.font_title}}
-            </a>
-            {%endif%}
-          </li>
-        </ul>
-      </div>
-
-      <h3>Compartilhe</h3>
-      <div class="page-footer">
-        <div class="page-share">
-          <a href="https://twitter.com/intent/tweet?url=https://jhonathanribeiro.netlify.app{{page.url}}" title="Share on Twitter" rel="nofollow" target="_blank">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-            Twitter</a>
-          <a href="https://facebook.com/sharer.php?u=https://jhonathanribeiro.netlify.app{{ page.url }}" title="Share on Facebook" rel="nofollow" target="_blank">
-            <i class="fa fa-facebook-square" aria-hidden="true"></i>
-            Facebook</a>
-          <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://jhonathanribeiro.netlify.app{{ page.url }}" title="Share on Linkedin" rel="nofollow" target="_blank">
-            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-            Linkedin</a>
-          <a href="https://web.whatsapp.com/send?text=https://jhonathanribeiro.netlify.app{{ page.url }}" title="Share on Whatsapp"
-            rel="nofollow" target="_blank" data-action="share/whatsapp/share">
-            <i class="fa fa-whatsapp" aria-hidden="true"></i>
-            Whatsapp</a>
-            <a href="http://pinterest.com/pin/create/button/?url=https://jhonathanribeiro.netlify.app{{page.url}}&media=https://jhonathanribeiro.netlify.app{{page.img}}&description={{page.description}}"
-              title="Share on Pinterest[Pin]" rel="nofollow" target="_blank">
-              <i class="fa fa-pinterest" aria-hidden="true"></i>
-              Pinterest</a>
-        </div>
-        <div class="page-tag">
-          {% for tag in page.tags %}
-            <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">&#35; {{ tag }}</a>
-          {% endfor %}
-        </div>
-      </div>
+      {% include needingwebsitesection.html %}
+      {% include earnsection.html %}
+      {% include fontsusedsection.html %}
+      {% include socialmediasharelinks.html %}
       {% include disqus.html %}
     </div> <!-- End Wrap Content -->
   </div> <!-- End Page Content -->
