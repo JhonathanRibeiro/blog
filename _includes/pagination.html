@@ -9,21 +9,24 @@
           </a>
         </label>
         {% else %}
-        <label class="btn btn-bluegreen active">
-          <a class="newer-posts" href="{{ site.baseurl }}/page/{{ paginator.previous_page }}/"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>
-          Previous
-          </a>
-        </label>
+        <a class="newer-posts" rel="prev" href="{{ site.baseurl }}/page/{{ paginator.previous_page }}/">
+          <label class="btn btn-bluegreen active">
+            <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+            Previous
+          </label>
+        </a>
         {% endif %}
       {% endif %}
       
     {% if paginator.next_page %}
+
+    <a class="older-posts" rel="next" href="{{ site.baseurl }}/page/{{ paginator.next_page }}/">
       <label class="btn btn-bluegreen">
-        <a class="older-posts" href="{{ site.baseurl }}/page/{{ paginator.next_page }}/">
           <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
           Next
-        </a>
       </label>
+    </a>
+      
     {% endif %}
     </div>
   </nav>
