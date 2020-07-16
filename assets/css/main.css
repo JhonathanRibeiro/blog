@@ -1291,12 +1291,16 @@ a.newer-posts:hover {
 }
 
 .header-page .page-date {
-  color: #a0a0a0;
-  font-weight: 300;
-  font-size: 12px;
-  text-transform: uppercase;
+    color: #a0a0a0;
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 24px;
+    margin: 0 11px;
 }
-
+.txt-inline {
+    display: inline-flex;
+}
 .page-cover-image {
   position: relative;
   padding: 0;

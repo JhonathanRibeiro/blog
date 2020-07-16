@@ -5,8 +5,10 @@ layout: main
   <div class="page-content">
     <header class="header-page">
       <h1 class="page-title">{{page.title}}</h1>
-      <div class="page-author"><span>{{page.author}}</span></div>
-      <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+      <div class="txt-inline">
+        <div class="page-author"><span>{{page.author}}</span></div>
+        <div class="page-date"><span>{{page.date | date: '%d de %b de %Y'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+      </div>
     </header>
     {% if page.img %}
     <div class="page-cover-image">
