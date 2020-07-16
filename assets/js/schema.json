@@ -1,0 +1,12 @@
+{
+"@context": "https://schema.org/",
+"@type": "WebSite",
+"name": "Blog Jhonathan Ribeiro",
+"url": "https://jhonathanribeiro.netlify.app",
+  "sameAs" : [
+        "https://twitter.com/Jhonathanjbr",
+        "https://www.facebook.com/Jhonathanjbr",
+        "https://www.instagram.com/jhonathan.rb/?hl=pt-br",
+        "https://www.linkedin.com/in/jhonathan-ribeiro/"
+   ]
+}
