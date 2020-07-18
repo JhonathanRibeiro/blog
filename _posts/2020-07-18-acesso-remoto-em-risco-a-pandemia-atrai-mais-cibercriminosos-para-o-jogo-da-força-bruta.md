@@ -1,8 +1,8 @@
 ---
 layout: post
 author: Jhonathan Ribeiro
-title: " Acesso remoto em risco: a pandemia atrai mais cibercriminosos para o
-  jogo da força bruta"
+title: " Acesso remoto em risco: a pandemia atrai mais cibercriminosos para
+  ataques de Brute Force"
 description: O acesso remoto mal protegido atrai principalmente grupos de
   ransomware, mas também pode fornecer acesso a mineradores de moedas e
   backdoors
@@ -11,8 +11,8 @@ tags: Cibercrime Segurança Hacker Malware Golpes Midia Social
 img: /assets/img/remote-access-risk-pandemic-brute‑forcing.jpg
 link_font: " "
 font_title: " "
-ogtitle: " Acesso remoto em risco: a pandemia atrai mais cibercriminosos para o
-  jogo da força bruta"
+ogtitle: " Acesso remoto em risco: a pandemia atrai mais cibercriminosos para
+  ataques de Brute Force"
 ogtype: article
 ogdescription: O acesso remoto mal protegido atrai principalmente grupos de
   ransomware, mas também pode fornecer acesso a mineradores de moedas e
