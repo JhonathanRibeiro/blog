@@ -9,7 +9,7 @@ description: Os perfis de Elon Musk e Bill Gates no Twitter parecem ter sido
   além das maiores exchanges de criptomoedas do mundo.
 date: 2020-07-17
 tags: Segurança, Ciberataque, Hacker
-img: /assets/img/algumas-das-maiores-contas-do-twitter-do-mundo-foram-invadidas-esta-semana.-aqui-está-o-que-sabemos-sobre-o-que-aconteceu..jpg
+img: /assets/img/algumasdasmaiorescontasdotwitterforamkeakceadas.jpg
 link_font: https://techcrunch.com/2020/07/15/twitter-hacker-admin-scam/
 font_title: TechCrunch
 ogtitle: Algumas das maiores contas do Twitter do mundo foram invadidas esta
@@ -19,7 +19,7 @@ ogdescription: Os perfis de Elon Musk e Bill Gates no Twitter parecem ter sido
   hackeadas para aplicar um golpe envolvendo bitcoins. Outras contas grandes
   atacadas incluem nomes como Uber, Apple, Kanye West, Jeff Bezos, Barack Obama,
   além das maiores exchanges de criptomoedas do mundo.
-ogimage: /assets/img/algumas-das-maiores-contas-do-twitter-do-mundo-foram-invadidas-esta-semana.-aqui-está-o-que-sabemos-sobre-o-que-aconteceu..jpg
+ogimage: /assets/img/algumasdasmaiorescontasdotwitterforamkeakceadas.jpg
 twitter-creator: "@Jhonathanrjb"
 twitter-card: summary
 twitter-site: "@Jhonathanrjb"
