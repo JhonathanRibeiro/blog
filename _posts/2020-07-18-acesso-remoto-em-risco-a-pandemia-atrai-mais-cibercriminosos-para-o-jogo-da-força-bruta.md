@@ -7,7 +7,7 @@ description: O acesso remoto mal protegido atrai principalmente grupos de
   ransomware, mas também pode fornecer acesso a mineradores de moedas e
   backdoors
 date: 2020-07-17
-tags: Ciberataque Segurança Hacker
+tags: Cibercrime Segurança Hacker Malware Golpes Midia Social
 img: /assets/img/remote-access-risk-pandemic-brute‑forcing.jpg
 link_font: " "
 font_title: " "
