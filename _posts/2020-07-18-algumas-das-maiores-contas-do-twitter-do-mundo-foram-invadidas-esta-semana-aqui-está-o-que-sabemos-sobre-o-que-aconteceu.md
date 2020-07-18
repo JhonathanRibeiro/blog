@@ -8,7 +8,7 @@ description: Os perfis de Elon Musk e Bill Gates no Twitter parecem ter sido
   atacadas incluem nomes como Uber, Apple, Kanye West, Jeff Bezos, Barack Obama,
   além das maiores exchanges de criptomoedas do mundo.
 date: 2020-07-17
-tags: Segurança, Ciberataque, Hacker
+tags: Segurança Cibercrime Midia Social Malware
 img: /assets/img/algumasdasmaiorescontasdotwitterforamkeakceadas.jpg
 link_font: https://techcrunch.com/2020/07/15/twitter-hacker-admin-scam/
 font_title: TechCrunch
