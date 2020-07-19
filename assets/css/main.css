@@ -1046,7 +1046,7 @@ table tfoot td {
 
 .about .author-name {
   font-family: 'PT Serif', serif;
-  margin: 0 0 10px;
+  margin: -1px 0px -2px;
   position: relative;
   padding-bottom: 15px;
   font-size: 16px;
@@ -1054,8 +1054,49 @@ table tfoot td {
   color: #f1f1f1;
   font-weight: 700;
 }
-
+input#search-input {
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #17a2b8;
+    background: transparent;
+    color: white;
+    margin-bottom: 12px;
+    padding: 0px 0px 0px 23px;
+  }
+  ::-webkit-input-placeholder {
+    color: #ffff;
+  }
+  /* settings bloom in input */
+  .submit-lente {
+  position:absolute;
+  top:0; 
+  right:0;
+  left: 0;
+  z-index:10;
+  border:none;
+  background:transparent;
+  outline:none;
+}
+.submit-line {
+  position: relative;
+  width: 200px;
+  margin: 0 auto;
+}
+.submit-line input {
+  width: 100%;
+}
+.fa-search:before {
+  color: white;
+}
+#results{
+  padding: 0px!important;
+  width: 100%;
+}
+/* ball author name */
 .about .author-name::after {
+  display: none!important;
   content: "";
   position: absolute;
   left: 50%;

@@ -5,9 +5,21 @@ layout: default
   <header>
     <div class="about">
       <div class="cover-author-image">
-        <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.data.author.author-img %}{{site.data.author.author-img}}{% endif %}" alt="{{site.author}}"></a>
+        <a href="{{site.url}}/"><img src="{{site.url}}/assets/img/{% if site.data.author.author-img %}{{site.data.author.author-img}}{% endif %}" alt="{{site.author}}"></a>
       </div>
       <div class="author-name">{{site.data.author.author}}</div>
+      
+      <div class="submit-line">
+        <div id="search-container">
+          <input class="search" type="text" id="search-input" placeholder="search..." >
+          <input class="search" type="text" id="search-input" placeholder="search..."
+          autocomplete="off" aria-autocomplete="off" style="display: none;" disabled="disabled">
+          <button class="submit-lente" type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+      
       <p>{{site.data.author.about-author}}</p>
     </div>
   </header> <!-- End Header -->
@@ -69,7 +81,29 @@ layout: default
       action="https://github.us18.list-manage.com/subscribe/post?u=267ca37c6e5348cd9abb7f3c0&amp;id=1aa891af16">
         <button type="submit" class="btn btn-bluegreen">Inscrever-se</button>
     </form>
+    
   </section>
   {% endif%}
+        <ul id="results"></ul>
   {{ content }}
 </div>
+
+<script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results'),
+    searchResultTemplate: `
+    <article class="post">
+      <a class="post-thumbnail" style="background-image: url({img})" href="{url}"></a>
+      <div class="post-content">
+        <h2 class="post-title"><a href="{url}">{title}</a></h2>
+        <p>{description}</p>
+        <span class="post-date">{date}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+        <span class="post-words">{author}</span>
+      </div>
+    </article>
+    `,
+    json: '/search.json'
+  });
+  noResultsText("Nenhum post encontrado!");
+</script>

@@ -1,0 +1,16 @@
+---
+---
+[
+    {% for post in site.posts %}
+    {
+        "title": "{{ post.title | escape }}",
+        "author": "{{ post.author }}",
+        "url": "{{ site.url }}{{ post.url }}",
+        "img": "{{ post.img }}",
+        "description": "{{ post.description | strip_html | truncatewords: 15 }}",
+        "tags": "{{ post.tags | join: ', ' }}",
+        "date": "{{ post.date | date: '%d de %b de %Y' }}"
+    } {% unless forloop.last %},
+    {% endunless %}
+  {% endfor %}
+]
