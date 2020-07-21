@@ -1,17 +1,10 @@
 <head>
   <script src="https://www.googleoptimize.com/optimize.js?id=OPT-TWNZM9H"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172542037-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-172542037-1');
-  </script>
+  {% include analytics.html %}
 	<meta charset="utf-8">
   <title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
   <link rel="canonical" href="https://jhonathanribeiro.netlify.app/"/>
-  <link rel="alternate" type="application/xml" href="/sitemap.xml"/>
+  <link rel="alternate" type="application/xml" href="{{site.url}}/sitemap.xml"/>
   {% feed_meta %}
     <meta content="{{ page.title }}" property="og:site_name">
   {% if page.title %}
@@ -83,12 +76,6 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="{{ "/assets/img/favicon/apple-touch-icon-72x72.png" | prepend: site.baseurl }}">
 	<link rel="apple-touch-icon" sizes="144x144" href="{{ "/assets/img/favicon/apple-touch-icon-144x144.png" | prepend: site.baseurl }}">
 	<!-- Chrome, Firefox OS and Opera -->
-	<meta name="theme-color" content="#263959">
-	<!-- Windows Phone -->
-	<meta name="msapplication-navbutton-color" content="#263959">
-	<!-- iOS Safari -->
-  <meta name="apple-mobile-web-app-status-bar-style" content="#263959">
-  <!-- Pinterest -->
   <meta name="p:domain_verify" content="e5619e1db52ac092f4b03ebf9bca23ce" />
   <meta name="google-site-verification" content="c3NwlxtpKUZXQH1vR3QTy2kvsaAe89UQxL76wHtZtJ8" />
   <!-- meta tag HREFLANG -->
