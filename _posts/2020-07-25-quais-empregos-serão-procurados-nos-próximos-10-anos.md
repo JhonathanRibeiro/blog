@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Jhonathan Ribeiro
-title: Quais empregos serão procurados nos próximos 10 anos?
+title: Quais empregos serão mais procurados nos próximos 10 anos?
 description: Embora seja impossível prever o curso futuro de todo e qualquer
   trabalho no local de trabalho, existem certos recursos que podem ajudar a
   salvar sua futura carreira, se não sua função atual. As habilidades
@@ -15,7 +15,7 @@ tags: empregos inovação futuro planejamento
 img: /assets/img/capa-quais-empregos-serao-procurados-nos-proximos-dez-anos.jpg
 link_font: " "
 font_title: " "
-ogtitle: Quais empregos serão procurados nos próximos 10 anos?
+ogtitle: Quais empregos serão mais procurados nos próximos 10 anos?
 ogtype: article
 ogdescription: Embora seja impossível prever o curso futuro de todo e qualquer
   trabalho no local de trabalho, existem certos recursos que podem ajudar a
@@ -30,8 +30,6 @@ twitter-creator: "@Jhonathanrjb"
 twitter-card: summary
 twitter-site: "@Jhonathanrjb"
 ---
-# Quais empregos serão mais procurados nos próximos 10 anos?
-
 A Quarta Revolução Industrial está mudando o cenário de trabalho em todos os setores, em todo o mundo. O Fórum Econômico Mundial relata que isso pode levar ao deslocamento de 75 milhões de empregos devido à adoção de novas tecnologias e mudanças estruturais no mercado de trabalho. 1 No entanto, nem tudo é desgraça, pois também foi previsto o surgimento simultâneo de 133 milhões de novos empregos. A chave é traçar uma carreira que tire proveito dessas mudanças tecnológicas, mas não possa ser substituída por elas.
 
 Até 2030, as funções de suporte de escritório, serviço de alimentação, operações de produção e máquina e instalações e reparos mecânicos desaparecerão nos EUA, 3 com tendências semelhantes acontecendo na África do Sul e no resto do mundo. Os trabalhos que continuarão sendo demandados incluem profissionais de saúde, especialistas em STEM (ciência, tecnologia, engenharia e matemática), criativos, gerentes e aqueles em educação ou treinamento da força de trabalho. 
