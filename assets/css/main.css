@@ -861,9 +861,9 @@ p.about-text {
     font-weight: 800;
     }
     @media only screen and (min-width: 768px){
-        h1.page-title {
+        /* h1.page-title {
             font-size: 90px;
-        }
+        } */
     }
     @media (min-width: 1200px){
         .col-lg-offset-2 {
