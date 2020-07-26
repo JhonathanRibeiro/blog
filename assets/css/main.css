@@ -855,7 +855,7 @@ p.about-text {
   text-align: justify;
 }
   h1.page-title {
-    font-size: 65px;
+    /* font-size: 65px; */
     color: #333;
     font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 800;
