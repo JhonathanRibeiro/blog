@@ -37,7 +37,7 @@ import { Component } from "@angular/core";
     
     @Component({
       selector: 'app-component',
-      template: '<ul> <li *ngFor="let item of items">{{item} }</li> </ul>',
+      template: '<ul> <li *ngFor="let item of items">{{item}}</li> </ul>',
     })
     export class AppComponent implements OnInit{
       constructor(private http: HttpClient){
@@ -76,7 +76,7 @@ Em seguida, faremos uso dele no componente:
     
     @Component({
       selector: 'app-component',
-      template: '<ul> <li *ngFor="let item of items">{{item} }</li> </ul>',
+      template: '<ul> <li *ngFor="let item of items">{{item}}</li> </ul>',
     })
     export class AppComponent implements OnInit{
       constructor(private itemsService: ItemsService){
