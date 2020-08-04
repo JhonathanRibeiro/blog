@@ -37,7 +37,7 @@ import { Component } from "@angular/core";
     
     @Component({
       selector: 'app-component',
-      template: '<ul> <li *ngFor="let item of items">{{item}}</li> </ul>',
+      template: '<ul> <li *ngFor="let item of items">{{item} }</li> </ul>',
     })
     export class AppComponent implements OnInit{
       constructor(private http: HttpClient){
@@ -76,7 +76,7 @@ Em seguida, faremos uso dele no componente:
     
     @Component({
       selector: 'app-component',
-      template: '<ul> <li *ngFor="let item of items">{{item}}</li> </ul>',
+      template: '<ul> <li *ngFor="let item of items">{{item} }</li> </ul>',
     })
     export class AppComponent implements OnInit{
       constructor(private itemsService: ItemsService){
@@ -97,13 +97,13 @@ Este utilitário, introduzido na versão 6 do Angular, pode ser usado para adici
 
 Você pode implementar recursos progressivos de aplicativos da Web em seu aplicativo executando o seguinte comando:
 
-```bash
+```
 ng add @angular/pwa
 ```
 
 Ou, se você deseja adicionar um toque de Design de Material em seu aplicativo, você pode adicionar a biblioteca de Materiais Angular
 
-```bash
+```
 ng add @angular/material
 ```
 
@@ -113,7 +113,7 @@ A partir da versão 6 do Angular, você pode desenvolver elementos nativos perso
 
 Para começar a criar elementos nativos personalizados no Angular, instale o pacote Angular Elements no seu aplicativo usando o seguinte comando:
 
-```bash
+```
 ng add @angular/elements --name=<your_project_name>
 ```
 
@@ -161,8 +161,8 @@ Ao trabalhar com objetos em modelos angulares, você encontra situações em que
 
 Por exemplo, seu modelo fica assim, você está lendo a `name`propriedade de um `student`objeto:
 
-```html
-<p>{{ student.name }}</p>
+```
+<p>{ { student. name } }</p>
 ```
 
 E foi assim que a variável foi declarada no arquivo de componente:
@@ -185,14 +185,15 @@ Angular lançará um erro aqui.
 
 Usando o operador de navegação segura, podemos salvaguardar a `name`propriedade contra qualquer `null`e `undefined`valores. O operador de navegação segura no Angular é essa sintaxe `?.`, e podemos atualizar o modelo para usar isso:
 
-```html
-  <p> {{ student?.name }} </p>
+```
+
+<p> { {student?.name } } </p>
 ```
 
 Quando você executa isso, o Angular não gera nenhum erro e seu console está limpo. Outra técnica útil para evitar esse erro é usar o `&&`operador and ( ) para verificar se o valor existe antes de ler o caminho da propriedade. Podemos atualizar o exemplo para usar esta sintaxe:
 
-```html
-<p> {{ student && student.name }} </p>
+```
+<p> { {student && student.name } } </p>
 ```
 
 Se o valor não existir, o Angular evitará avaliar a expressão e nada será renderizado entre as tags.
