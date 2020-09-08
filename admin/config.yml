@@ -126,7 +126,7 @@ collections:
  - label: "Projects"
    name: "project"
    folder: "_projects"
-   create: true #permite que seja possível criar um novo post
+   create: true #permite que seja possível criar um novo [projeto]
    slug: "{{slug}}"
    fields:
       - label: "Imagem"
@@ -138,12 +138,6 @@ collections:
       - label: "Descrição"
         name: "description"
         widget: "string"
-      - label: "Google Maps"
-        name: "google-maps"
-        widget: "string"
       - label: "Site do projeto"
         name: "site-project"
-        widget: "string"
-      - label: "Whatsapp da empresa"
-        name: "whatsapp"
         widget: "string"
