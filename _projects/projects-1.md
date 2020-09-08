@@ -1,8 +1,8 @@
 ---
-img: "/assets/img/ferramentas-de-gerenciamento-de-redes-sociais-para-pequenas-empresas.jpg"
-title: "Primeiro projeto"
-description: "Clique nos ícones abaixo para mais informações."
-google-maps: "askaofshsipuddebudbefurbfẃddnciebvdçcsnaiv peihçvkbdcdpiçvfv"
-site-project: "https://www.google.com.br"
-whatsapp: "1234-1231"
+img: /assets/img/rock-papper-scissors-image-for-projects-in-site-jhonathan-ribeiro.png
+title: Pedra Papel ou Tesoura?
+description: Projeto desenvolvido com HTML5, CSS3 e Javascript puro. [OpenSource]
+google-maps: askaofshsipuddebudbefurbfẃddnciebvdçcsnaiv peihçvkbdcdpiçvfv
+site-project: https://jhonathanribeiro.github.io/rock-paper-scissors/
+whatsapp: "+554899995252"
 ---
