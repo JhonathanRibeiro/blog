@@ -6,14 +6,14 @@ description: Conheça 4 ferramentas GUI do MongoDB mais populares com seus
   principais recursos.
 date: 2020-09-30
 tags: MongoDB, Banco de dados, Banco nao relacional
-img: /assets/img/banner-mongodb.jpg
+img: /assets/img/mongodb.png
 link_font: " "
 font_title: " "
 ogtitle: "Conheça 4 ferramentas gratuitas para gerenciar MongoDB "
 ogtype: article
 ogdescription: Conheça 4 ferramentas GUI do MongoDB mais populares com seus
   principais recursos.
-ogimage: /assets/img/banner-mongodb.jpg
+ogimage: /assets/img/mongodb.png
 twitter-creator: "@Jhonathanrjb"
 twitter-card: summary
 twitter-site: "@Jhonathanrjb"
