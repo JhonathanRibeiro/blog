@@ -18,7 +18,7 @@ twitter-creator: "@Jhonathanrjb"
 twitter-card: summary
 twitter-site: "@Jhonathanrjb"
 ---
-Existem muitas ferramentas de gerenciamento [MongoDB](https://www.guru99.com/mongodb-tutorials.html) disponíveis no mercado. Essas ferramentas podem melhorar a produtividade do desenvolvimento do MongoDB e das tarefas administrativas.
+Existem muitas ferramentas de gerenciamento MongoDB disponíveis no mercado. Essas ferramentas podem melhorar a produtividade do desenvolvimento do MongoDB e das tarefas administrativas.
 
 Aqui está a lista das ferramentas GUI do MongoDB mais populares, com seus principais recursos, use o link para download.
 
@@ -52,8 +52,6 @@ Aqui está a lista das ferramentas GUI do MongoDB mais populares, com seus princ
 * Ambiente de shell embutido
 * IU assíncrona e sem bloqueio
 * Suporta MongoDB 4.0
-
-
 
 ### 3) Bússola MongoDB:
 
