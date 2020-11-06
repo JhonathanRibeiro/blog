@@ -26,8 +26,6 @@ twitter-creator: "@Jhonathanrjb"
 twitter-card: summary
 twitter-site: "@Jhonathanrjb"
 ---
-# Portugol Studio
-
 Nesse tutorial, você vai aprender a como instalar o **Portugol Studio**, que é uma ferramenta utilizada para aprender a programar, voltado para os iniciantes em programação que falam o idioma português. Também vai ser feito um mini overview do Portugol, para que você tenha uma noção básica dos recursos da ferramenta. Por fim, mostrarei como você pode criar o seu primeiro algorítmo no Portugol Studio.
 
 ## Instalação do Portugol
