@@ -9,7 +9,7 @@ description: Nesse tutorial, você vai aprender a como instalar o Portugol
   recursos da ferramenta. Por fim, mostrarei como você pode criar o seu primeiro
   algorítmo no Portugol Studio.
 date: 2020-11-05
-tags: Tutoriais Tecnologia Algoritmos Logica\de\Programação
+tags: 
 img: /assets/img/portugolstudio.jpg
 link_font: " "
 font_title: " "
