@@ -18,9 +18,9 @@ twitter-creator: "@Jhonathanrjb"
 twitter-card: summary
 twitter-site: "@Jhonathanrjb"
 ---
-Uma forma particularmente flexível de instalar o Node.js é por meio do nvm, o gerenciador de versões do Node. Este software permite que você instale e mantenha várias versões diferentes e independentes do Node.js, além dos pacotes Node associados a eles.
+Uma forma particularmente flexível de instalar o Node.js é por meio do nvm, o gerenciador de versões do Node. Este software permite que você instale e mantenha várias versões diferentes e independentes do Node.js, além dos pacotes Node associados a eles. Neste artigo irei mostrar como instalar o gerenciador de versões do Node no linux Ubuntu 20.04.
 
-Para instalar o NVM em sua máquina Ubuntu 20.04, visite [a página do GitHub do projeto](https://github.com/nvm-sh/nvm). Copie o comando `curl` do arquivo README, mostrado na página principal. Isso dará a você a versão mais recente do script de instalação.
+Para instalar o NVM em sua máquina Ubuntu, visite [a página do GitHub do projeto](https://github.com/nvm-sh/nvm). Copie o comando `curl` do arquivo README, mostrado na página principal. Isso dará a você a versão mais recente do script de instalação.
 
 Antes de passar o comando para o `bash`, sempre é uma boa ideia verificar o script, para garantir que ele não fará nada que você não concorde. Faça isso removendo o segmento  `| bash`  no final do comando  `curl`:
 
