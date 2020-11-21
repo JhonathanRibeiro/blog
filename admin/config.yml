@@ -141,3 +141,22 @@ collections:
       - label: "Site do projeto"
         name: "site-project"
         widget: "string"
+# Create new service...
+ - label: "Services"
+   name: "service"
+   folder: "_services"
+   create: true #permite que seja possível criar um novo [servico]
+   slug: "{{slug}}"
+   fields:
+      - label: "Imagem"
+        name: "img"
+        widget: "image"
+      - label: "Título"
+        name: "title"
+        widget: "string"
+      - label: "Descrição"
+        name: "description"
+        widget: "string"
+      - label: "URL do serviço"
+        name: "url-service"
+        widget: "string"
