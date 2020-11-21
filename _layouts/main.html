@@ -1,14 +1,24 @@
 ---
 layout: default
 ---
-<aside class="sidebar">
+<aside class="sidebar" id="content">
+ <div class="text-left">
+  <button class="btn btn-light btn-collapse"
+  data-toggle="collapse" href="#collapseExample" role="button" 
+  aria-expanded="false" aria-controls="collapseExample"
+  id="btn-collapse">
+    <div class="toggle-line"></div>
+    <div class="toggle-line"></div>
+    <div class="toggle-line"></div>
+  </button>
+ </div>
+ <div class="content" id="collapseExample">
   <header>
     <div class="about">
       <div class="cover-author-image">
         <a href="{{site.url}}/"><img src="{{site.url}}/assets/img/{% if site.data.author.author-img %}{{site.data.author.author-img}}{% endif %}" alt="{{site.author}}"></a>
       </div>
       <div class="author-name">{{site.data.author.author}}</div>
-      
       <div class="submit-line">
         <div id="search-container">
           <input class="search" type="text" id="search-input" placeholder="search..." >
@@ -67,6 +77,7 @@ layout: default
       <p>{{site.time | date: '%Y'}} &copy; {{site.data.author.author}}</p>
     </div>
   </footer> <!-- End Footer -->
+ </div>
 </aside> <!-- End Sidebar -->
 
 <div class="content-box clearfix">
@@ -86,7 +97,34 @@ layout: default
         <ul id="results"></ul>
   {{ content }}
 </div>
-
+<style>
+  .btn-collapse{display: none;}
+  @media only screen and (max-width: 768px){
+    .btn-collapse {
+      display: block;
+      background-color: transparent;
+      border: 2px solid!important;
+      color: white;
+    }
+    .btn-collapse:hover {
+      background-color: transparent;
+      border: 2px solid #fff!important;
+    }
+    .btn-light.focus, .btn-light:focus{background-color: none!important;}
+    .toggle-line {
+      width: 35px;
+      height: 5px;
+      background-color: #ffffff;
+      margin: 6px 0;
+    }
+    .collapse:not(.show) {
+     display: none!important;
+    }
+  }
+  .collapse:not(.show) {
+     display: block;
+  }
+</style>
 <script>
   SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
@@ -104,5 +142,10 @@ layout: default
     `,
     json:'/search.json'
   });
+  // script button collapse
+  let media = window.matchMedia("(max-width: 768px)");
+  if(media){
+    document.getElementById("collapseExample").classList.add("collapse");
+  }
 </script>
 <!-- <script src="//code.jivosite.com/widget/dPHJXoTtF9" async></script> -->
