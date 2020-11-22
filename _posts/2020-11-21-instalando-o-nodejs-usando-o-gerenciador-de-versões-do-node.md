@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Jhonathan Ribeiro
-title: Instalando o Nodejs usando o gerenciador de versões do Node
+title: Instalando o Nodejs usando o NVM
 description: "Uma forma particularmente flexível de instalar o Node.js é por
   meio do nvm, o gerenciador de versões do Node. "
 date: 2020-11-21
