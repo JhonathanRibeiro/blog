@@ -4,7 +4,7 @@ bioEp.init({
         '<span>Não vá embora ainda...👇</span>' +
         '<span>Conheça o nossa loja, são diversos produtos com</span>' +
         '<span>Ofertas imperdíveis</span>' +
-        '<a href="https://www.magazinevoce.com.br/magazinewikshop/" target="_blank" class="bio_btn">CLIQUE AQUI</a>' +
+        '<a href="/shop" class="bio_btn">CLIQUE AQUI</a>' +
         '</div>',
     css: '#bio_ep {width: 400px; height: 325px!important; color: #333; background-color: #fafafa; text-align: center;}' +
         '#bio_ep_content {padding: 0 5px; font-family: "Titillium Web";}' +
