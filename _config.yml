@@ -1,5 +1,5 @@
-title: Blog Jhonathan Ribeiro - Tecnologia | Webdesign | Marketing Digital
-description: Aprenda mais sobre Webdesign,Marketing Digital, Programação e fique sempre atualizado com os principais assuntos da tecnologia.
+title: Blog Jhonathan Ribeiro - Tecnologia | Programação | Dicas
+description: Aprenda mais sobre Tecnologia e Programação e fique sempre atualizado.
 facebook: Jhonathanjbr
 github:  JhonathanRibeiro
 instagram: jhonathan.rb
@@ -14,11 +14,11 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Jhonathan Ribeiro # add your name
 author-img: jhonathan.jpg # add your photo
 img-openGraph: woman-using-notebook-for-home-working.jpg
-about-author: Sou desenvolvedor web focado no desenvolvimento front-end. Entusiasta de novas tecnologias Web e Mobile.
+about-author: Estudante de Análise e Desenvolvimento de Sistemas. Entusiasta em novas tecnologias web e mobile.
 
 #Agency reference
 agency-txt:   Webdesign Premium
-agency-link:  https://jhonathanribeiro.github.io//
+agency-link:   
 agency-title: Precisando de um site?
 
 # Disqus
