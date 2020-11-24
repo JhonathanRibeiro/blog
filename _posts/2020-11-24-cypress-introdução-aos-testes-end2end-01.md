@@ -32,12 +32,6 @@ Por outro lado, o **teste lhe dá confiança** . Você enviaria um produto qu
 
 ## Requisitos para esse tutorial
 
-
-
-
-
-
-
 Para acompanhar este tutorial, você precisa de uma instalação funcional do **[Node.js](https://jhonathanribeiro.netlify.app/instalando-o-nodejs-usando-o-gerenciador-de-vers%C3%B5es-do-node/)** em seu sistema. Além disso, um entendimento básico de JavaScript é uma vantagem. Certifique-se que as seguintes ferramentas estão instaladas em seu sistema:
 
 \- [Git](https://git-scm.com/);
@@ -88,7 +82,7 @@ Dentro desta pasta, crie dois novos arquivos. Um documento HTML em `index.html
 
 É um formulário **HTML** com vários inputs e uma área de texto.
 
-Em seguida, crie um arquivo JavaScript `form.js `com uma lógica mínima para lidar com o envio do formulário:
+Em seguida, crie um arquivo JavaScript `form.js`com uma lógica mínima para lidar com o envio do formulário:
 
 ```javascript
 const form = document.forms[0];
@@ -158,7 +152,7 @@ describe("Testando formulário", () => {
 
 Se você já conhece **Jest**, deve se lembrar que leva `it`ou `test`indiferentemente. Esse não é o caso do **Cypress**. `it`é o único bloco reconhecido.
 
-Agora é hora de testarmos! No bloco `it``` escreva:
+Agora é hora de testarmos! No bloco \`it\` escreva:
 
 ```javascript
 describe("Testando formulário", () => {
@@ -169,7 +163,7 @@ describe("Testando formulário", () => {
 });
 ```
 
-Aqui `cy` representa o próprio Cypress. `visit```  é um método para navegar até um determinado caminho.
+Aqui `cy` representa o próprio Cypress. \`visit\`  é um método para navegar até um determinado caminho.
 
 `get`  em vez disso, é um método para **selecionar elementos na página** . Com esse código, dizemos ao **Cypress**  "Vá até o formulário da página especificada".
 
@@ -177,7 +171,7 @@ Em um minuto veremos **Cypress**  em ação, mas primeiro, um pouco de configura
 
 ## Configurando o Cypress
 
-Para agilizar um pouco as coisas, vamos configurar o Cypress. Para começar, abra `package.json `e crie um script chamado e2e apontando para o binário Cypress:
+Para agilizar um pouco as coisas, vamos configurar o Cypress. Para começar, abra `package.json`e crie um script chamado e2e apontando para o binário Cypress:
 
 ```json
 "scripts": {
@@ -185,7 +179,7 @@ Para agilizar um pouco as coisas, vamos configurar o Cypress. Para começar, ab
   },
 ```
 
-Em seguida, abra `cypress.json `e configure o URL base:
+Em seguida, abra `cypress.json`e configure o URL base:
 
 ```json
 {
@@ -215,9 +209,7 @@ Você deverá ver o **Cypress abrindo um navegador** e percorrendo a página:
 
 ![998iyfm6 o](https://images2.imgbox.com/26/22/998IYfm6_o.png)
 
-
-
-Essa é a sua primeira aprovação no teste! Ambos `visit````` e `get` são comandos Cypress que atuam também como **asserções implícitas** , ou seja, se o elemento estiver na página o Cypress considerará o teste aprovado.
+Essa é a sua primeira aprovação no teste! Ambos ``````visit````` e``````get` são comandos Cypress que atuam também como **asserções implícitas** , ou seja, se o elemento estiver na página o Cypress considerará o teste aprovado.
 
 Agora, vamos continuar estendendo seu teste para ver se o usuário pode preencher o formulário:
 
