@@ -5,12 +5,10 @@
   <title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
   <link rel="canonical" href="https://jhonathanribeiro.netlify.app/"/>
   <link rel="alternate" type="application/xml" href="{{site.url}}/sitemap.xml"/>
-  {% feed_meta %}
-    <meta content="{{ page.title }}" property="og:title">
-  {% if page.title %}
-    <meta content="{{ page.title }}" property="og:title">
-  {% else %}
+  {% if site.title %}
     <meta content="{{ site.title }}" property="og:title">
+  {% else %}
+    <meta content="{{ page.site-title }}" property="og:title">
   {% endif %}
   {% if page.title %}
     <meta content="article" property="og:type">
