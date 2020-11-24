@@ -11,7 +11,7 @@ img: /assets/img/cypressio02.png
 link_font: " "
 font_title: " "
 ogtitle: "Cypress: Introdução aos testes End2End #02"
-ogtype: summary
+ogtype: article
 ogdescription: "Na parte #0a1 configuramos nosso projeto e rodamos nosso
   primeiro teste, vamos dar continuidade de onde paramos e explorar ainda mais
   as possibilidades de testes para o nosso formulário de exemplo..."
