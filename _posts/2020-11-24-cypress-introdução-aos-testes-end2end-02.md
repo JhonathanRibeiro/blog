@@ -155,7 +155,6 @@ O Cypress implementou suporte para a Fetch stub a partir da versão 4.9.0, porta
   "baseUrl": "http://localhost:5000",
   "experimentalFetchPolyfill": true
 }
-
 ```
 
 Neste exemplo,vamos usar `XMLHttpRequest`. Abra o arquivo `form.js` e implemente a seguinte lógica:
@@ -175,10 +174,9 @@ document.addEventListener("formdata", event => {
   request.open("POST", "https://jsonplaceholder.typicode.com/users/");
   request.send(jsonBody);
 });
-
 ```
 
-Neste trecho, estou usando o evento **formdata** , despachado quando chamamos **new FormData**.
+Neste trecho, estou usando o evento **[formdata](https://jhonathanribeiro.netlify.app/formdata-o-mais-novo-evento-em-formul%C3%A1rios-html/)** , despachado quando chamamos **new FormData**.
 
 No listener do evento, construímos um objeto com `fromEntries`(ECMAScript 2019). Em **seguida, enviamos os dados para a Fake API**. Molesinha! :P
 
@@ -197,7 +195,6 @@ document.addEventListener("formdata", event => {
     const jsonResponse = JSON.parse(this.response);
   };
 });
-
 ```
 
 Finalmente, podemos **(apenas para manter as coisas simples) salvar a resposta na página** (por favor, não repitam isso em casa...rsrsrs em uma aplicação séria você vai arrumar aquela dor de cabeça básica, lembrando que utilizei esse método apenas para simplificar as coisas):
