@@ -122,25 +122,25 @@ Para veicular o projeto na máquina local, certifique-se de ter uma versão mais
 npx serve
 ```
 
-Isso girará um servidor de desenvolvimento em [http: // localhost: 5000 /](http://localhost:5000/) . Acesse o link e você deverá ver nosso formulário:
+Isso irá iniciar um servidor de desenvolvimento em <http://localhost:5000/>.Acesse o link e você deverá ver o nosso formulário:
 
-![Llbzaifr o](https://images2.imgbox.com/70/94/llbzaifR_o.png)
+![Formulário de exemplo](https://images2.imgbox.com/70/94/llbzaifR_o.png)
 
 ## Escrevendo seu primeiro teste
 
-Crie um novo arquivo `cypress/integration/form.spec.js`e escreva seu primeiro bloco:
+Crie um novo arquivo `cypress/integration/form.spec.js` e escreva seu primeiro bloco:
 
 ```javascript
 describe("Testando formulário", () => {
-  //
+  //content
 });
 ```
 
-`describe`é um método **Cypress** (emprestado do Mocha) para conter um ou mais **testes relacionados** . Cada vez que você começa a escrever um novo conjunto de testes para uma funcionalidade, envolva-o em um `describe`bloco.
+`describe` é um método do **Cypress** (emprestado do Mocha) para conter um ou mais **testes relacionados**.Cada vez que você começa a escrever um novo conjunto de testes para uma funcionalidade, envolva-o em um bloco `describe`.
 
-Como você pode ver, ele leva dois argumentos: uma string para descrever o conjunto de testes e uma **função de retorno de chamada para envolver o teste real** .
+Como você pode ver, ele requer dois argumentos: uma string para descrever o conjunto de testes e uma **função de retorno de chamada para envolver o teste real** .
 
-A seguir, vamos conhecer outra função chamada `it`que é o bloco de teste real:
+A seguir, vamos conhecer outra função chamada `it` que é o bloco de teste real:
 
 ```javascript
 describe("Testando formulário", () => {
@@ -150,14 +150,16 @@ describe("Testando formulário", () => {
 });
 ```
 
-Se você já conhece **Jest**, deve se lembrar que leva `it`ou `test`indiferentemente. Esse não é o caso do **Cypress**. `it`é o único bloco reconhecido.
+Se você já conhece **Jest**, deve se lembrar que ele utiliza `it` ou `test` indiferentemente. Esse não é o caso do **Cypress**. `it` é o único bloco reconhecido.
 
 Agora é hora de testarmos! No bloco \`it\` escreva:
 
 ```javascript
 describe("Testando formulário", () => {
   it("Preenchendo o formulário", () => {
+    //Acessando a URL base 
     cy.visit("/");
+    //Selecionando o FORM
     cy.get("form");
   });
 });
@@ -165,13 +167,13 @@ describe("Testando formulário", () => {
 
 Aqui `cy` representa o próprio Cypress. \`visit\`  é um método para navegar até um determinado caminho.
 
-`get`  em vez disso, é um método para **selecionar elementos na página** . Com esse código, dizemos ao **Cypress**  "Vá até o formulário da página especificada".
+`get`  em vez disso, é um método para **selecionar elementos na página** . Com esse código, dizemos ao **Cypress**  "Vá até a página especificada e selecione o formulário".
 
-Em um minuto veremos **Cypress**  em ação, mas primeiro, um pouco de configuração!
+Em um minuto veremos o **Cypress**  em ação, mas primeiro, um pouco de configuração!
 
 ## Configurando o Cypress
 
-Para agilizar um pouco as coisas, vamos configurar o Cypress. Para começar, abra `package.json`e crie um script chamado e2e apontando para o binário Cypress:
+Para agilizar um pouco as coisas, vamos configurar o **Cypress**. Para começar, abra `package.json` e crie um script chamado **e2e** apontando para o binário **Cypress**:
 
 ```json
 "scripts": {
@@ -179,7 +181,7 @@ Para agilizar um pouco as coisas, vamos configurar o Cypress. Para começar, ab
   },
 ```
 
-Em seguida, abra `cypress.json`e configure o URL base:
+Em seguida, abra `cypress.json` e configure o URL base:
 
 ```json
 {
@@ -187,7 +189,7 @@ Em seguida, abra `cypress.json`e configure o URL base:
 }
 ```
 
-Com esta opção, dizemos ao **Cypress** para visitar a nossa URL de desenvolvimento. (5000 é a porta padrão para o package **service**).
+Com esta opção, dizemos ao **Cypress** para visitar a nossa URL de desenvolvimento.(5000 é a porta padrão para o package **service**).
 
 Agora estamos prontos para executar nosso primeiro teste! Hehe
 
@@ -207,9 +209,9 @@ npm run e2e
 
 Você deverá ver o **Cypress abrindo um navegador** e percorrendo a página:
 
-![998iyfm6 o](https://images2.imgbox.com/26/22/998IYfm6_o.png)
+![Cypress abrindo um navegador](https://images2.imgbox.com/26/22/998IYfm6_o.png)
 
-Essa é a sua primeira aprovação no teste! Ambos ``````visit````` e``````get` são comandos Cypress que atuam também como **asserções implícitas** , ou seja, se o elemento estiver na página o Cypress considerará o teste aprovado.
+Essa é a sua primeira aprovação no teste! Ambos **visit** e **get** são comandos do **Cypress** que atuam também como **asserções implícitas**,ou seja, se o elemento estiver na página o **Cypress** considerará o teste aprovado.
 
 Agora, vamos continuar estendendo seu teste para ver se o usuário pode preencher o formulário:
 
@@ -224,7 +226,7 @@ describe("Testando formulário", () => {
 });
 ```
 
-Aqui está outro comando Cypress `type`: que sem surpresa digita em nosso primeiro input \[name]. Além disso, observe o seletor CSS para obter o elemento de entrada.
+Aqui está outro comando **Cypress** `type`: que sem surpresa digita em nosso primeiro input \[name]. Além disso, observe que foi utilizado um seletor CSS para obter o elemento de entrada. Você pode utilizar seletores css para obter os dados necessários(id,tags,classes etc), mas o Cypress recomenda que você utilize data-* attributes para fornecer contexto aos seus seletores e isolá-los das alterações de CSS ou JS. 
 
 Vamos também adicionar um outro comando: `should`. Este comando cria uma asserção e é usado, por exemplo, para verificar se uma entrada está atualizando seu estado conforme o esperado:
 
@@ -242,6 +244,6 @@ describe("Testando formulário", () => {
 ```
 
 \
-Observe `have.value`. Se você é novo neste conceito, pode [aprender mais sobre asserções aqui](https://docs.cypress.io/guides/core-concepts/introduction-to-cypress.html#Assertions) .
+Observe `have.value`. Se você é novo neste conceito, pode [aprender mais sobre asserções aqui](https://docs.cypress.io/guides/core-concepts/introduction-to-cypress.html#Assertions).
 
-Com um teste mínimo implementado, continuaremos no próximo capítulo.
+Com um teste mínimo implementado, daremos continuidade no[ próximo capítulo desse tutorial](https://jhonathanribeiro.netlify.app/cypress-introdu%C3%A7%C3%A3o-aos-testes-end2end-02/).
