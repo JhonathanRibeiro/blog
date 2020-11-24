@@ -5,7 +5,7 @@ title: "Cypress: Introdução aos testes End2End #02"
 description: "Na parte #01 configuramos nosso projeto e rodamos nosso primeiro
   teste, vamos dar continuidade de onde paramos e explorar ainda mais as
   possibilidades de testes para o nosso formulário de exemplo..."
-date: 2020-11-23
+date: 2020-11-22
 tags: SoftwareTesting
 img: /assets/img/cypressio02.png
 link_font: " "
@@ -29,13 +29,16 @@ Para continuar nosso teste, podemos verificar a entrada de e-mail:
 ```javascript
 describe("Testando Formulario", () => {
   it("Preenchendo formulario", () => {
+    //acessando a URL Base
     cy.visit("/");
+    //selecionando o formulário
     cy.get("form");
-
+    //selecionando o input name e inserindo 
+    //um texto
     cy.get('input[name="name"]')
       .type("Isabella")
       .should("have.value", "Isabella");
-
+    
     cy.get('input[name="email"]')
       .type("isa@dev.com")
       .should("have.value", "isa@dev.com");
@@ -66,7 +69,7 @@ describe("Testando Formulario", () => {
 });
 ```
 
-**Se você deixou o Cypress aberto,** o teste deve observar suas alterações e ser executado automaticamente:
+**Se você deixou o Cypress aberto,** suas alterações serão atualizadas automaticamente:
 
 ![V6c4anel o](https://images2.imgbox.com/f1/6c/V6C4aNEl_o.png)Delicinha! Agora vem a cereja do bolo, vamos testar o envio do formulário com o **.submit()**:
 
@@ -93,7 +96,7 @@ describe("Testando Formulario", () => {
 });
 ```
 
-O teste deve continuar passando sem nenhum problema. **Uma coisa que você pode notar são estes comandos auto descritivos** : `type`, `submit`. É um inglês simples, oque torna o cypress ainda mais interessante. :D
+O teste deve continuar passando sem nenhum problema. **Uma coisa que você pode notar são estes comandos auto descritivos** : `type`, `submit`. É um inglês simples, oque torna o **cypress** ainda mais interessante. :D
 
 Agora vamos nos aprofundar um pouco mais na próxima seção com o **teste de solicitação XHR**.
 
@@ -120,11 +123,11 @@ describe("Testando Formulario", () => {
 });
 ```
 
-Aqui, `cy.server` roda um servidor "virtual" enquanto `cy.route` configura o endpoint da nossa API falsa.
+Aqui, `cy.server()` roda um servidor "virtual" enquanto `cy.route()` configura o endpoint da nossa Fake API.
 
-Agora vamos adicionar outro teste para verificar: **depois que o usuário enviar o formulário, queremos testar se a API falsa está respondendo**.
+Agora vamos adicionar outro teste para verificar: **depois que o usuário enviar o formulário, queremos testar se a Fake API está respondendo**.
 
-**O stub é útil porque podemos ignorar a API real completamente no desenvolvimento**. Vamos estender o teste com `cy.contains`:
+**O stub é útil porque podemos ignorar a API real completamente no desenvolvimento**. Vamos estender o teste com `cy.contains()`:
 
 ```javascript
 describe("Testando Formulario", () => {
@@ -144,11 +147,11 @@ describe("Testando Formulario", () => {
 });
 ```
 
-**Espera-** se que esse teste **falhe** porque ainda não implementamos a lógica para enviar o formulário a nossa Fake API. Não se preocupe, faremos o teste passar na próxima seção.
+**Espera-se** que esse teste **falhe** porque ainda não implementamos a lógica para enviar os dados do formulário a nossa Fake API. Mas não se preocupe, faremos o teste passar na próxima seção.
 
-## Envio de dados de formulário para uma API
+## Enviando os dados do formulário para a Fake API
 
-O Cypress implementou suporte para a Fetch stub a partir da versão 4.9.0, portanto, para habilitá-lo, configure `experimentalFetchPolyfill` em `cypress.json`:
+O **Cypress** implementou suporte para a **Fetch stub** a partir da **versão 4.9.0**, portanto, para habilitá-lo, configure `experimentalFetchPolyfill` em `cypress.json`:
 
 ```json
 {
@@ -157,7 +160,7 @@ O Cypress implementou suporte para a Fetch stub a partir da versão 4.9.0, porta
 }
 ```
 
-Neste exemplo,vamos usar `XMLHttpRequest`. Abra o arquivo `form.js` e implemente a seguinte lógica:
+Neste exemplo,vamos usar `XMLHttpRequest`. Abra o arquivo `form.js` e implemente o seguinte script:
 
 ```json
 const form = document.forms[0];
@@ -176,11 +179,11 @@ document.addEventListener("formdata", event => {
 });
 ```
 
-Neste trecho, estou usando o evento **[formdata](https://jhonathanribeiro.netlify.app/formdata-o-mais-novo-evento-em-formul%C3%A1rios-html/)** , despachado quando chamamos **new FormData**.
+Neste trecho, estou usando o evento **[formdata](https://jhonathanribeiro.netlify.app/formdata-o-mais-novo-evento-em-formul%C3%A1rios-html/)**,despachado quando chamamos **new FormData**.
 
-No listener do evento, construímos um objeto com `fromEntries`(ECMAScript 2019). Em **seguida, enviamos os dados para a Fake API**. Molesinha! :P
+No ouvinte(listener) do evento, construímos um objeto com `fromEntries`(ECMAScript 2019). Em **seguida, enviamos os dados para a Fake API**. 
 
-Para fazer o teste passar, também precisamos **obter a resposta da API** e salvá-la no documento. Para fazer isso, podemos ouvir o evento **onload** de XMLHttpRequest:
+Para fazer o teste passar, também precisamos **obter a resposta da Fake API** e salvá-la no documento. Para fazer isso, podemos ouvir o evento **onload** de **XMLHttpRequest**:
 
 ```json
 // conteúdo anterior omitido
@@ -207,9 +210,9 @@ Finalmente, podemos **(apenas para manter as coisas simples) salvar a resposta 
   };
 ```
 
-É agora ou nunca, toma um gole de café e se agarre na cadeira que esse é o momento de ver aquele checked maroto! rsrsrsr Calma, segura lá jovem, vou listar abaixo o código completo dos arquivos para você dar aquela conferida de levis e ver se não deixou nada passar, afinal, todo cuidado nunca é de mais não é mesmo?
+É agora ou nunca, chegou a hora de ver aquele checked tão esperado! Vou deixar abaixo o código que foi desenvolvido até aqui.
 
-## Stubbing XHR solicitações com Cypress: teste aprovado
+## Solicitações Stubbing XHR com Cypress: teste aprovado
 
 Para recapitular, aqui está o teste completo em `cypress/integration/form.spec.js`:
 
@@ -266,13 +269,13 @@ document.addEventListener("formdata", event => {
 });
 ```
 
-Uma coisa que devemos ter em mente é que a **API real provavelmente não retornaria a mesma forma do nosso stub falso**. Ao desenvolver uma aplicação real, você precisa adaptar seus testes ao sistema real.
+Uma coisa que devemos ter em mente é que a **API real provavelmente não retornaria da mesma forma do nosso stub falso**. Ao desenvolver uma aplicação real, você precisa adaptar seus testes ao sistema real.
 
 Por enquanto, estamos bem, e se você manteve o **Cypress** aberto, já deve ter visto o teste passando:
 
-![Pqsgsueq o](https://images2.imgbox.com/64/07/pQsGsUeQ_o.png)
+![Teste sendo executado pelo Cypress.io](https://images2.imgbox.com/64/07/pQsGsUeQ_o.png "Teste sendo executado pelo Cypress.io")
 
-[](https://www.valentinog.com/blog/static/83d570e66daa28b0dfd089ab2dc03056/47aef/cypress-stub-pass.png)Você pode ver a seção de rotas no canto superior esquerdo e o **stub XHR** na saída do teste, **sinal de que Cypress interceptou a solicitação POST** .
+[](https://www.valentinog.com/blog/static/83d570e66daa28b0dfd089ab2dc03056/47aef/cypress-stub-pass.png)Você pode ver a seção de rotas no canto superior esquerdo e o **stub XHR** na saída do teste, **sinal de que Cypress interceptou a solicitação POST corretamente**.
 
 Essa é uma das melhores características do **Cypress**, sem contar as dezenas de comandos e asserções prontas para usar.
 
@@ -280,10 +283,10 @@ Com o **stub**, podemos concluir o tutorial. Good job!
 
 ## Conclusões
 
-Espero que você tenha aprendido algo novo com este tutorial e que aplique esses conceitos em seu próximo projeto! O teste é muito importante!
+Espero que você tenha aprendido algo novo com este tutorial e que aplique esses conceitos em seu próximo projeto! Lembre-se, o teste é muito importante!
 
 O teste de ponta a ponta(**End2End**) não deve ser difícil: o **Cypress** torna-o agradável e divertido. A equipe da **Cypress** acertou em cheio. 
 
 Além disso, a documentação é molesinha: **[Cypress Docs](https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell)** está repleto de práticas recomendadas e exemplos.
 
-Obrigado por ler, até a próxima!
+Obrigado pela leitura e fique ligado para saber mais!
