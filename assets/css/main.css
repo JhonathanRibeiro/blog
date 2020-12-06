@@ -6,7 +6,6 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 2 */
 }
-
 /* Sections
    ========================================================================== */
 /**
@@ -16,7 +15,6 @@ body {
   margin: 0;
 
 }
-
 /**
  * Add the correct display in IE 9-.
  */
@@ -28,7 +26,6 @@ nav,
 section {
   display: block;
 }
-
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
@@ -37,7 +34,6 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-
 /* Grouping content
    ========================================================================== */
 /**
@@ -50,14 +46,12 @@ main {
   /* 1 */
   display: block;
 }
-
 /**
  * Add the correct margin in IE 8.
  */
 figure {
   margin: 1em 40px;
 }
-
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
@@ -71,7 +65,6 @@ hr {
   overflow: visible;
   /* 2 */
 }
-
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
@@ -82,7 +75,6 @@ pre {
   font-size: 1em;
   /* 2 */
 }
-
 /* Text-level semantics
    ========================================================================== */
 /**
@@ -95,7 +87,6 @@ a {
   -webkit-text-decoration-skip: objects;
   /* 2 */
 }
-
 /**
  * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
@@ -273,6 +264,9 @@ span#blog-txt {
 /*
 * Personalized Design Buttons
 */
+button#btn-collapse {
+  height: 3.5rem;
+}
 .btn {
   /* padding: 0.75em; */
   border: none!important;
@@ -515,7 +509,6 @@ pre.highlight {
 code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
 }
-
 .highlight .c { color: #586E75 } /* Comment */
 .highlight .err { color: #93A1A1 } /* Error */
 .highlight .g { color: #93A1A1 } /* Generic */
@@ -592,7 +585,6 @@ span.nt {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-
 html {
   line-height: 1.5;
 }
@@ -641,7 +633,6 @@ img {
   vertical-align: middle;
   display: inline-block;
 }
-
 img + em {
   text-align: center;
   display: block;
@@ -650,7 +641,6 @@ img + em {
   font-weight: bold;
   font-size: 14px;
 }
-
 blockquote {
   border-left: 5px solid #000;
   padding-left: 1.1rem;
@@ -740,6 +730,7 @@ table tfoot td {
 }
 
 .post, .article-page {
+  border-radius: 5px;
   background-color: #fff;
 }
 
@@ -1263,9 +1254,68 @@ a.newer-posts:hover {
   text-decoration: underline;
   opacity: .8;
 }
-
+/* media PRINT */
+@media print {
+  .sidebar {display:none;}
+  .content-box {
+    padding: 0px;
+    padding-left: 0px;
+  }
+  #results{display: none;}
+}
+/* stylesheets on btns on share social media */
+a.btn-share-twitter {
+  background-color: #17a2b8!important;
+  color: #fff!important;
+  border: none!important;
+  border-radius: 5px;
+  box-shadow: 1px 4px 3px 0px #115f6b;
+}
+a.btn-share-facebook {
+  background-color: #1b88e0!important;
+  color: #fff!important;
+  border: none!important;
+  border-radius: 5px;
+  box-shadow: 1px 4px 3px 0px #115c8a;
+}
+a.btn-share-linkedin {
+  background-color: #0a66b1!important;
+  color: #fff!important;
+  border: none!important;
+  border-radius: 5px;
+  box-shadow: 1px 4px 3px 0px #143e7e;
+}
+a.btn-share-whatsapp {
+  background-color: #0ab142!important;
+  color: #fff!important;
+  border: none!important;
+  border-radius: 5px;
+  box-shadow: 1px 4px 3px 0px #1e9b05;
+}
+a.btn-share-pinterest {
+  background-color: #d60064!important;
+  color: #fff!important;
+  border: none!important;
+  border-radius: 5px;
+  box-shadow: 1px 4px 3px 0px #91054b;
+}
 /* - - - - - - - - - - Media Styles - - - - - - - - - - */
 /* Medium Devices, Desktops */
+@media only screen and (max-width: 1920px){
+  .sidebar{
+    padding: 20px 5px 456px;
+  }
+}
+@media only screen and (max-width: 2560px) and (max-height:1440px){
+  .sidebar{
+    padding: 20px 5px 790px;
+  }
+}
+@media only screen and (max-width: 3840px) and (max-height:2160px){
+  .sidebar{
+    padding: 20px 5px 1520px;
+  }
+}
 @media only screen and (max-width: 992px) {
   .post {
     width: 48%;
@@ -1290,7 +1340,6 @@ a.newer-posts:hover {
     font-size: 21px;
   }
 }
-
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .sidebar {

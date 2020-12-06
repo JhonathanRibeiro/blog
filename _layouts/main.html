@@ -4,15 +4,15 @@ layout: default
 <aside class="sidebar" id="content">
  <div class="text-left">
   <button class="btn btn-light btn-collapse"
-  data-toggle="collapse" href="#collapseExample" role="button" 
-  aria-expanded="false" aria-controls="collapseExample"
+  data-toggle="collapse" href="#mobileCollapseEffect" role="button" 
+  aria-expanded="false" aria-controls="mobileCollapseEffect"
   id="btn-collapse">
     <div class="toggle-line"></div>
     <div class="toggle-line"></div>
     <div class="toggle-line"></div>
   </button>
  </div>
- <div class="content" id="collapseExample">
+ <div class="content collapse show" id="mobileCollapseEffect">
   <header>
     <div class="about">
       <div class="cover-author-image">
@@ -143,7 +143,6 @@ layout: default
   // script button collapse
   let media = window.matchMedia("(max-width: 768px)");
   if(media){
-    document.getElementById("collapseExample").classList.add("collapse");
+    document.getElementById("mobileCollapseEffect").classList.add("collapse");
   }
 </script>
-<!-- <script src="//code.jivosite.com/widget/dPHJXoTtF9" async></script> -->
