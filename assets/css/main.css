@@ -1340,6 +1340,11 @@ a.btn-share-pinterest {
     font-size: 21px;
   }
 }
+/* espaçamento na sidebar no mobile... */
+div#mobileCollapseEffect {
+  padding-bottom: 54px;
+  margin-bottom: 225px;
+}
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .sidebar {
