@@ -161,9 +161,9 @@ collections:
         name: "url-service"
         widget: "string"
 # Create new dica...
- - label: "Dicas"
-   name: "dicas"
-   folder: "_dicas"
+ - label: "References"
+   name: "references"
+   folder: "_references"
    create: true #permite que seja possível criar um novo [servico]
    slug: "{{slug}}"
    fields:
