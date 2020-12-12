@@ -2,7 +2,30 @@
 layout: main
 permalink: dicas.html
 ---
-<link rel="stylesheet" href="../assets/css/theme-about.css">
+<div class="container">
+    <div class="text-center">
+        <h1 class="text-uppercase">Dicas</h1>
+        <p>Algumas das soluções que encontrei ao longo do tempo,<br> configurações de desempenho,snippets de código,ferramentas dentre outros.</p>
+        <hr class="small">
+    </div>
+</div>
 <div class="container px-3 px-lg-5">
-    
-</div>  
+    <div id="ac">
+        {% for item in site.dicas %}
+            <div class="card">
+                <div class="card-header" id="{{item.ariaLabelId}}">
+                <h5 class="mb-0">
+                    <button class="btn btn-link accordion show" data-toggle="collapse" data-target="#{{item.dataTargetId}}" aria-expanded="true" aria-controls="{{item.dataTargetId}}">
+                    {{item.title}}
+                    </button>
+                </h5>
+                </div>
+                <div id="{{item.dataTargetId}}" class="accordion collapse show" aria-labelledby="{{item.ariaLabelId}}" data-parent="#ac">
+                <div class="card-body">
+                  {{item.content}}  
+                </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div><!--end  ac -->
+</div><!--end container-->

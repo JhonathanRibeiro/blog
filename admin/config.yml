@@ -160,3 +160,22 @@ collections:
       - label: "URL do serviço"
         name: "url-service"
         widget: "string"
+# Create new dica...
+ - label: "Dicas"
+   name: "dicas"
+   folder: "_dicas"
+   create: true #permite que seja possível criar um novo [servico]
+   slug: "{{slug}}"
+   fields:
+      - label: "Título"
+        name: "title"
+        widget: "string"
+      - label: "ariaLabelId"
+        name: "ariaLabelId"
+        widget: "string"
+      - label: "dataTargetId"
+        name: "dataTargetId"
+        widget: "string"
+      - label: "Content"
+        name: "body"
+        widget: "markdown"

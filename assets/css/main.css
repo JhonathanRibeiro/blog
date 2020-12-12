@@ -13,7 +13,12 @@ html {
  */
 body {
   margin: 0;
-
+  font-family: 'Lato', sans-serif;
+  color: #404040;
+  background-color: rgb(239, 240, 244);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 /**
  * Add the correct display in IE 9-.
@@ -587,14 +592,6 @@ span.nt {
 }
 html {
   line-height: 1.5;
-}
-body {
-  font-family: 'Lato', sans-serif;
-  color: #404040;
-  background-color: #fbfbfb;
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 hr.small {
     width: 100px;
@@ -1344,6 +1341,35 @@ a.btn-share-pinterest {
 div#mobileCollapseEffect {
   padding-bottom: 54px;
   margin-bottom: 225px;
+}
+/* Essa configuração permite que o accordion funcione sem interferir 
+na sidebar...todo accordion novo deve conter a classe accordion antes
+da classe collapse para que o conflito seja resolvido...(ganbis)
+*/
+@media only screen and (min-width: 768px) {
+  .accordion.collapse:not(.show) {
+      display: none!important;
+  }
+}
+/* Melhorando a aparência dos botoes 
+d pagina de dicas */
+.card {
+  border:none!important;
+}
+.card-header{
+  background-color: transparent!important;
+}
+.btn-link:focus, .btn-link.focus {
+  text-decoration: none;
+  color:#373a3cd1;
+}
+button.btn.btn-link.accordion.show {
+  text-decoration: none;
+  color:#373a3cd1;
+}
+button.btn.btn-link.accordion {
+  text-decoration: none;
+  color:#373a3cd1;
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
