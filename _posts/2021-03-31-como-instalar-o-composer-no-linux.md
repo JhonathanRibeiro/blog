@@ -87,9 +87,9 @@ Você verá um resultado parecido com este:
 
 Para testar a sua instalação, execute:
 
-` composer`
+`composer`
 
-```
+```svg
 Output
    ______
   / ____/___  ____ ___  ____  ____  ________  _____
@@ -118,7 +118,5 @@ Options:
 ```
 
 Isso verifica que o Composer foi instalado com sucesso e está disponível em todo o sistema.
-
-
 
 Espero ter ajudado, até a próxima! :)
