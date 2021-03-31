@@ -26,7 +26,7 @@ twitter-site: "@Jhonathanrjb"
 ---
 Olá pessoal, Hoje vamos criar um projeto laravel do zero. Antes disso, você deve instalar o gerenciador de pacotes Composer para trabalhar com o laravel. Caso você não tenha o Composer instalado em sua máquina, não se preocupe, leia os posts nos links a seguir, conforme o seu sistema operacional e em seguida você poderá retornar e dar continuidade no seu aprendizado.
 
-#### Instalando o Composer:
+#### **Instalando o Composer:**
 
 1. [Como instalar o Composer no Windows;](https://jhonathanribeiro.netlify.app/como-instalar-o-composer-no-windows/)
 2. [Como instalar o Composer no Linux;](https://jhonathanribeiro.netlify.app/como-instalar-o-composer-no-linux/)
@@ -52,6 +52,8 @@ Verifique se o instalador do Laravel está instalado ou não
 `laravel --version`
 
 #### **A saída deve se parecer com isto:**
+
+![](/assets/img/113189840-054ec300-9232-11eb-8cbf-6ea2616ca4db.png)
 
 OBS: A versão que você está vendo neste momento não se refere a versão do laravel e sim do seu instalador.
 
