@@ -51,7 +51,7 @@ Verifique se o instalador do Laravel está instalado ou não
 
 `laravel --version`
 
-## A saída deve se parecer com isso:![](https://lh4.googleusercontent.com/1j48nFm5lrknJzpwWsFnq3YivLXqvzjgKsJfCbJKy-wSbz46_ZUR7YpeACACQPT6KXVPp9jCQa2Qdg9ZRYXm-jixC7bsZVOb-JF6ZK3esjsGyL2dV8UjyuA-6P5-K_DsUN9vF_kL)
+#### **A saída deve se parecer com isto:**
 
 OBS: A versão que você está vendo neste momento não se refere a versão do laravel e sim do seu instalador.
 
@@ -59,24 +59,26 @@ Nesta etapa, iremos criar o projeto laravel em seu sistema local, para isto, dig
 
  `composer create-project --prefer-dist laravel/laravel blog`
 
- Neste exemplo estou utilizando o nome do projeto como blog, mas você poderá alterar com o nome de sua preferência. 
+Neste exemplo estou utilizando o nome do projeto como blog, mas você poderá alterar com o nome de sua preferência. 
 
-Após executar o comando acima, a saída no seu terminal deve se parecer com isto:![](https://lh3.googleusercontent.com/NWf-6AXKf4B5DsoEqUZOYOcsXsaEVVFve4esrRbmG6moOQVTwcMw8aAONAD67-9Ibo-dnSaTRxPaunoYOnY9pVuwINiTtEbMI5baXsHPxyuQcxRVf5yAQCay8WJ_fQ5Jh6ohkQeW)
+Após executar o comando acima, a saída no seu terminal deve se parecer com isto:
+
+![](https://lh3.googleusercontent.com/NWf-6AXKf4B5DsoEqUZOYOcsXsaEVVFve4esrRbmG6moOQVTwcMw8aAONAD67-9Ibo-dnSaTRxPaunoYOnY9pVuwINiTtEbMI5baXsHPxyuQcxRVf5yAQCay8WJ_fQ5Jh6ohkQeW)
 
 Dependendo da sua conexão com a internet esta etapa de criação pode demorar um pouco, e por fim seu novo projeto estará criado.
 
 Para verificar se o seu projeto foi instalado corretamente, em seu terminal, acesse a pasta do projeto, no nosso caso blog
 
-`  cd blog     `
+`cd blog`
 
 Agora, estando dentro da raiz do projeto, digite o seguinte comando:
 
- ` php artisan serve`
+ `php artisan serve`
 
 Isto irá gerar um servidor local na porta 8000, agora é só acessar o seu navegador com a url, <http://localhost:8000/>
 
-A saída deverá se parecer com isto:![](https://lh4.googleusercontent.com/VPmGkTdSLLJxd5EAsyrRWh986aMb9KzTwuyNGeLQkKli1CyIYQhtH1RgQSN_czb9MQl4WZbEKjy5-OIbLNtRMFV6MomwzUfvHotc_u5RgJOZ91bA8FeNIpcWWkKPfAdW_FvwouAW)
+A saída deverá se parecer com isto:
 
- 
+![](https://lh4.googleusercontent.com/VPmGkTdSLLJxd5EAsyrRWh986aMb9KzTwuyNGeLQkKli1CyIYQhtH1RgQSN_czb9MQl4WZbEKjy5-OIbLNtRMFV6MomwzUfvHotc_u5RgJOZ91bA8FeNIpcWWkKPfAdW_FvwouAW)
 
 Obrigado por ler até aqui, até a próxima! :)
