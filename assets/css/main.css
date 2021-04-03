@@ -59,7 +59,7 @@ figure {
 }
 code {
     font-size: 87.5%;
-    color: #3ee85b;
+    color: #3ee85b!important;
     word-wrap: break-word;
     background: #4d4d4d;
     padding: 0.25em;
