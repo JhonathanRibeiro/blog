@@ -57,6 +57,14 @@ main {
 figure {
   margin: 1em 40px;
 }
+code {
+    font-size: 87.5%;
+    color: #3ee85b;
+    word-wrap: break-word;
+    background: #4d4d4d;
+    padding: 0.25em;
+    border-radius: 3px;
+}
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
