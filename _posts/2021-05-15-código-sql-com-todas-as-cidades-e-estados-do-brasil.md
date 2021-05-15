@@ -21,7 +21,7 @@ twitter-creator: "@jhonathanrjb"
 twitter-card: summary
 twitter-site: "@jhonathanrjb"
 ---
-Deixe seu **banco de dados MySQL**  completo adicionando este SQL com **todas as cidades e estados do Brasil** ao seu banco de dados. Para importar, é só acessar seu PHPMyAdmin, clicar em Importar e selecionar este arquivo. Você pode visualizar este arquivo no link abaixo:
+Deixe seu **banco de dados MySQL**  completo adicionando este SQL com **todas as cidades e estados do Brasil** ao seu banco de dados. 
 
 ```sql
 CREATE TABLE cidades (
