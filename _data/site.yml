@@ -1,15 +1,14 @@
-#SEO - Meta tags values
+section_earn_link: https://exe.io/ref/JhonathanRb
+font_title: Jhonathan Ribeiro
+section_earn_title: Ganhe dinheiro encurtando links!
+section_earn_description: E se você pudesse receber dinheiro pelos links que
+  você compartilha nas redes sociais? Cadastre-se agora mesmo na <a
+  href="https://exe.io/ref/JhonathanRb" target="_blank">exe.io</a> e comece a
+  faturar encurtando os seus links. ;)
+link_font: https://jhonathanribeiro.netlify.app/
+section_earn_img: https://img.cut-urls.com/r2.gif
 title: Jhonathan Ribeiro
 title-site: Blog Jhonathan Ribeiro - Tecnologia | Programação | Dicas
-description: > 
-  Bem vindo ao meu blog! Aqui você encontra artigos sobre tecnologia, programação e muito mais. Inscreva-se agora mesmo em nossa Newsletter e fique por dentro de todas as nossas novidades.
-
-# Fonts
-link_font: https://jhonathanribeiro.netlify.app/
-font_title: Jhonathan Ribeiro
-
-# Earn Money
-section_earn_title: Ganhe dinheiro encurtando links!
-section_earn_description: E se você pudesse receber dinheiro pelos links que você compartilha nas redes sociais? Cadastre-se agora mesmo na <a href="https://exe.io/ref/JhonathanRb" target="_blank">exe.io</a> e comece a faturar encurtando os seus links. ;)
-section_earn_link: https://exe.io/ref/JhonathanRb
-section_earn_img: https://img.cut-urls.com/r2.gif
+description: Bem vindo ao meu blog! Aqui você encontra artigos sobre tecnologia,
+  programação e muito mais. Inscreva-se agora mesmo em minha Newsletter e fique
+  por dentro de todas as novidades.
