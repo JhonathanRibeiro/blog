@@ -7,7 +7,7 @@ description: Apesar de ser uma feature bastante usada hoje em dia, algumas
   JavaScript.
 date: 2021-05-20
 tags: javascript
-img: /assets/img/apesar-de-ser-uma-feature-bastante-usada-hoje-em-dia-algumas-pessoas-ainda-não-conhecem-alguns-segredos-dessa-nova-sintaxe-de-funções-em-javascript..png
+img: /assets/img/apesar-de-ser-uma-feature-bastante-usada-hoje-em-dia-algumas-pessoas-ainda-não-conhecem-alguns-segredos-dessa-nova-sintaxe-de-funções-em-javascript.png
 link_font: " "
 font_title: " "
 ogtitle: Arrow functions - Javascript
@@ -15,7 +15,7 @@ ogtype: article
 ogdescription: Apesar de ser uma feature bastante usada hoje em dia, algumas
   pessoas ainda não conhecem alguns segredos dessa nova sintaxe de funções em
   JavaScript.
-ogimage: /assets/img/apesar-de-ser-uma-feature-bastante-usada-hoje-em-dia-algumas-pessoas-ainda-não-conhecem-alguns-segredos-dessa-nova-sintaxe-de-funções-em-javascript..png
+ogimage: /assets/img/apesar-de-ser-uma-feature-bastante-usada-hoje-em-dia-algumas-pessoas-ainda-não-conhecem-alguns-segredos-dessa-nova-sintaxe-de-funções-em-javascript.png
 twitter-creator: "@jhonathanrjb"
 twitter-card: summary
 twitter-site: "@jhonathanrjb"
