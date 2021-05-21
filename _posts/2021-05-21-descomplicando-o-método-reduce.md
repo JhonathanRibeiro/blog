@@ -20,19 +20,17 @@ twitter-site: "@jhonathanrjb"
 ---
 ## **O que é o reduce()**
 
-O método reduce() é usado para fazer uma redução no array por meio de uma função buscando elementos retornando um único valor. 
-
-Vamos ver como é esse método:![](https://miro.medium.com/max/1364/1*oHVvOzqxP2TJP8WYHatmmg.png)Elementos do **reduce()**
+O método reduce() é usado para fazer uma redução no array por meio de uma função buscando elementos retornando um único valor.  Vamos ver como é esse método:![](https://miro.medium.com/max/1364/1*oHVvOzqxP2TJP8WYHatmmg.png)
 
 ## Vamos para alguns exemplos
 
-Poderíamos criar um for para iterar em cada elemento e fazer a soma de todos os valores, ficaria assim:![](https://miro.medium.com/max/992/1*S8x1-gu1KVL2MpratgLgcg.png)for() para somar itens do **array**
+Poderíamos criar um for para iterar em cada elemento e fazer a soma de todos os valores, ficaria assim:![](https://miro.medium.com/max/992/1*S8x1-gu1KVL2MpratgLgcg.png)
 
 Mas para isso, observe, eu criei uma nova variável chamado total para receber o resultado da operação, agora vamos ver como é fácil trazer esse mesmo resultado.
 
 > Vamos reescrever esse mesmo código usando o **reduce()** e vamos ver a mágica acontecer
 
-![](https://miro.medium.com/max/1344/1*N0kvdJlc2WZM3eXx9rK5OA.png)Implementação do **reducer()**
+![](https://miro.medium.com/max/1344/1*N0kvdJlc2WZM3eXx9rK5OA.png)
 
 Com o uso do **reduce()** podemos armazenar cada valor iterado no acumulador e somar com o próximo valor atual.
 
@@ -57,7 +55,5 @@ Primeiro: acumulador,\
 Segundo: valor,\
 Terceiro: index,\
 Quarto: array original
-
-
 
 Valeu pela leitura, até a próxima! =)
