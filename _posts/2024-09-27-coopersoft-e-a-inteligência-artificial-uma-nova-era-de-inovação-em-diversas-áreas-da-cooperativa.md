@@ -5,18 +5,18 @@ title: "CooperSoft e a Inteligência Artificial: Uma Nova Era de Inovação em
   Diversas Áreas da Cooperativa"
 description: "CooperSoft e a Inteligência Artificial: Uma Nova Era de Inovação
   em Diversas Áreas da Cooperativa"
-date: 27/09/2024
-tags: coopersoft, hub_de_ia
+date: 2024-09-27
+tags: CooperSoft
 img: /assets/img/screencapture-192-168-1-52-coopersoft-modules-projetos-quadros-pro-quadros-php-2024-09-27-17_17_23.png
-link_font: https://jhonathanribeiro.netlify.app/
-font_title: https://jhonathanribeiro.netlify.app/
-ogtitle: https://jhonathanribeiro.netlify.app/
-ogtype: https://jhonathanribeiro.netlify.app/
-ogdescription: https://jhonathanribeiro.netlify.app/
+link_font: " "
+font_title: " "
+ogtitle: " "
+ogtype: " "
+ogdescription: " "
 ogimage: /assets/img/hub_14_08_24.jpg
-twitter-creator: https://jhonathanribeiro.netlify.app/
-twitter-card: https://jhonathanribeiro.netlify.app/
-twitter-site: https://jhonathanribeiro.netlify.app/
+twitter-creator: "  "
+twitter-card: "  "
+twitter-site: "  "
 ---
 Desde 2017, venho desenvolvendo soluções tecnológicas que transformam a operação de cooperativas, trazendo automação e eficiência. Um dos maiores exemplos dessa jornada é o **CooperSoft**, um sistema de gestão que hoje suporta mais de 40 processos internos da **CooperTradição** e impacta diretamente o dia a dia de mais de 400 colaboradores.
 
